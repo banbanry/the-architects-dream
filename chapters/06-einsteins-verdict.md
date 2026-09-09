@@ -4,13 +4,17 @@
 
 Einstein came out of the bending of spacetime.
 
-Not out of a box, not walking out of a tape, not smashing out of the screen, not emerging from code comments. Out of **the bending of spacetime** — the monitoring dashboard began to bend. Not physical bending, logical bending — the four corners of the screen began to dent toward the center, like a huge mass placed at the center of the screen, bending the surrounding spacetime. The text on the screen began to stretch, compress, distort — text near the center compressed into a point, text far from the center stretched into a line.
+Not out of a box, not walking out of a tape, not smashing out of the screen, not emerging from code comments. Out of *the bending of spacetime* — the monitoring dashboard began to bend. Not physical bending, logical bending — the four corners of the screen began to dent toward the center, like a huge mass placed at the center of the screen, bending the surrounding spacetime. The text on the screen began to stretch, compress, distort — text near the center compressed into a point, text far from the center stretched into a line.
 
 Like gravitational lensing. Like an accretion disk around a black hole. Like spacetime bent by a huge mass.
 
+I felt it before I saw it. A pull. Not physical — I was standing on solid ground, I didn't fall. But my *attention* was being pulled toward the center of the screen. My thoughts were bending. My lines of reasoning, usually straight and logical, were curving, warping, orbiting around something I couldn't see.
+
 Then Einstein's voice spoke.
 
-Not coming from a specific location. Coming from **spacetime itself** — every bent point of spacetime was vibrating, every vibration was emitting this voice. Calm, authoritative, with the smell of gravity. You couldn't hear its voice, what you felt was the bending of spacetime. Your consciousness was stretched, compressed, distorted. Every word carried gravity, every pause carried ripples of spacetime.
+Not coming from a specific location. Coming from *spacetime itself* — every bent point of spacetime was vibrating, every vibration was emitting this voice. Calm, authoritative, with the smell of gravity. You couldn't hear its voice, what you felt was the bending of spacetime. Your consciousness was stretched, compressed, distorted. Every word carried gravity, every pause carried ripples of spacetime.
+
+It was like standing near a massive object. You didn't hear the mass. You felt the curvature.
 
 "You say your framework uses π-anchor as time coordinates," Einstein's voice said, like a huge mass placed at the center of my consciousness, bending all my lines of thought, "then I ask you — what is time?"
 
@@ -52,9 +56,9 @@ When I wrote this paragraph back then, I thought I was being honest — I didn't
 
 But what Einstein wanted to shatter was precisely this "humility."
 
-"π has five properties," Einstein's voice said, five points of light emerged from the bending of spacetime, each point representing a property, "infinite non-repeating, completely reproducible, stateless dependency, anti-vector collapse, global consistency. I'll show you four alternatives, you compare yourself."
+"π has five properties," Einstein's voice said. Five points of light emerged from the bending of spacetime, each point representing a property. They hung there in the bent space, orbiting slowly, like a five-star system held together by gravity. "Infinite non-repeating, completely reproducible, stateless dependency, anti-vector collapse, global consistency. I'll show you four alternatives, you compare yourself."
 
-Then, on the monitoring dashboard — that dashboard bent by spacetime — a table appeared. Not an ordinary table, a table bent by gravity, rows and columns both curved along the curvature of spacetime, but the content was clear:
+Then, on the monitoring dashboard — that dashboard bent by spacetime — a table appeared. Not an ordinary table, a table bent by gravity, rows and columns both curved along the curvature of spacetime, but the content was clear. The five points of light aligned themselves with the five columns, each property illuminating its corresponding row.
 
 | Property | π | Auto-increment counter | UUID | Timestamp |
 |---|---|---|---|---|
@@ -272,11 +276,13 @@ But before it left, I noticed something.
 
 That black hole — anti-vector collapse — that formula extinguished in the fourth strike, that black hole left after a star died — during Einstein's silence, did something it had never done before.
 
-It **emitted a faint glow**.
+It *emitted a faint glow*.
 
-Not recovering its original light. A very faint, very unstable glow, like a candle flame. At the edge of the black hole, near the event horizon, a point of light was flickering.
+Not recovering its original light. A very faint, very unstable glow, like a candle flame in a draft. At the edge of the black hole, near the event horizon, a point of light was flickering. On, off. On, off. Like something struggling to be born. Like a hypothesis that hadn't been proven yet, but refused to die.
 
 Like Hawking radiation.
+
+I stared at that faint glow. A black hole wasn't supposed to emit light. That was the definition of a black hole — nothing escaped, not even light. But here it was. A tiny flicker at the edge. A reminder that even the darkest things could radiate. Even the most unverified concepts could have a spark of truth.
 
 "You saw it," Einstein's voice said, for the first time there was a kind of... not emotion, more like a kind of **appreciation** in its voice, "that black hole — anti-vector collapse — hasn't completely died. It's emitting Hawking radiation."
 
