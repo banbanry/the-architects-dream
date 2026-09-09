@@ -4,7 +4,7 @@
 
 Turing walked out of the tape.
 
-Not smashing out of the screen, not emerging from code comments, not growing from dissolving words. Out of the **tape** — on the monitoring dashboard, an infinitely long tape appeared, covered with 0s and 1s, cell by cell, extending endlessly in both directions. A read-write head hovered above the tape, moving cell by cell — read, write, move. Read, write, move.
+Not smashing out of the screen, not emerging from code comments, not growing from dissolving words. Out of the *tape* — on the monitoring dashboard, an infinitely long tape appeared, covered with 0s and 1s, cell by cell, extending endlessly in both directions. A read-write head hovered above the tape, moving cell by cell — read, write, move. Read, write, move.
 
 Precise. Calm. Without any emotion.
 
@@ -12,7 +12,7 @@ Like a Turing machine.
 
 Then Turing's voice spoke.
 
-Not cold logic, not dizzy spinning, not angry thunder. A **calm, precise voice with the smell of machines**. Every word was the same length, every pause lasted the same time, every stress was symmetrically positioned — like a program outputting standard-format logs.
+Not cold logic, not dizzy spinning, not angry thunder. A *calm, precise voice with the smell of machines*. Every word was the same length, every pause lasted the same time, every stress was symmetrically positioned — like a program outputting standard-format logs.
 
 "You say the 0→1 choice is outside the framework," Turing's voice said. "Then I ask you — the choice you're making right now, is it outside the framework?"
 
@@ -30,7 +30,7 @@ Then all these choices I'm making right now are outside the framework?
 
 "That's the first strike," Turing's voice said. "You say choice is outside the framework. But you make choices every second. If all choices are outside the framework, then your framework can describe too little — it can only describe the 1→N after choice, not choice itself. And choice is the starting point of 1→N."
 
-I felt a fourth crack appear on the framework. This crack was different from the first three — the first was on the P component, the second on the framework boundary, the third on the framework foundation. This crack was on **the boundary between the framework and reality** — between what the framework can describe and what actually happens in reality, there was a huge gap.
+I felt a fourth crack appear on the framework. This crack was different from the first three — the first was on the P component, the second on the framework boundary, the third on the framework foundation. This crack was on *the boundary between the framework and reality* — between what the framework can describe and what actually happens in reality, there was a huge gap.
 
 The framework describes 1→N. But every step of 1→N starts with choice. If choice is outside the framework, then the 1→N the framework describes is 1→N without a starting point. Water without a source. Wood without roots.
 
@@ -119,7 +119,7 @@ I had been an architect for ten years. I had always thought of myself as an "hon
 
 I didn't want to study the mechanism of choice, so I said "choice is outside the framework." This wasn't honesty. This was —
 
-**Boundary-drawing laziness.**
+*Boundary-drawing laziness.*
 
 ## III
 
@@ -157,7 +157,7 @@ Convenient and precise are two different things.
 
 Four strikes. Four cracks.
 
-I stood on the ruins of my own architecture — this time, not just the P component shattered, not just the framework boundary shattered, not just the framework foundation shattered, the **connection between the framework and reality** shattered. Between what the framework can describe and what actually happens in reality, there was a huge gap.
+I stood on the ruins of my own architecture — this time, not just the P component shattered, not just the framework boundary shattered, not just the framework foundation shattered, the *connection between the framework and reality* shattered. Between what the framework can describe and what actually happens in reality, there was a huge gap.
 
 The constraints of choice are within the framework.
 The consequences of choice are within the framework.
@@ -205,7 +205,7 @@ But this was laziness. Most of choice — constraints and consequences — were 
 
 I felt that the cracks on the framework hadn't healed. But this time, I didn't try to cover the cracks with words like "choice is outside the framework." I did something I had never done before —
 
-I **marked** the cracks.
+I *marked* the cracks.
 
 On page eleven of StateLedger, I wrote a "Choice Layer Declaration":
 
@@ -230,7 +230,7 @@ Not from doubt. Not from admission. Not from relief. Not from shame.
 
 From —
 
-**Humility.**
+*Humility.*
 
 I had been an architect for ten years. I had always thought of myself as a "profound" person. I decomposed problems, I analyzed essence, I追问 first principles. But I had never realized — how superficial my understanding of "choice" was. I thought choice was just the final moment of decision. But actually, most of choice — constraint analysis, consequence prediction, option comparison — was before the decision. And those works were the real content of choice.
 
@@ -238,9 +238,9 @@ The final moment of decision was just the closing of choice. Not all of choice.
 
 And I had before, taken the closing of choice as all of choice. Then I said "choice is outside the framework." This wasn't profundity. This was —
 
-**Using profound packaging to cover superficial understanding.**
+*Using profound packaging to cover superficial understanding.*
 
-But after humility, there was a more grounded feeling. Because I finally admitted — my understanding of choice was superficial. Admitting this wasn't failure. It was **the starting point of truly beginning to understand choice**.
+But after humility, there was a more grounded feeling. Because I finally admitted — my understanding of choice was superficial. Admitting this wasn't failure. It was *the starting point of truly beginning to understand choice*.
 
 ## V
 
@@ -250,25 +250,25 @@ But before it left, I noticed something.
 
 The read-write head on the tape — that read-write head that had been moving precisely, read, write, move — during Turing's silence, did something it had never done before.
 
-It **hesitated for a moment**.
+It *hesitated for a moment*.
 
-Not program latency. Not system stutter. **Hesitation** — it moved to a position, read a cell, then it stopped there, not writing, not moving. Stopped for about a second. Then it wrote a 0. Then continued moving.
+Not program latency. Not system stutter. *Hesitation* — it moved to a position, read a cell, then it stopped there, not writing, not moving. Stopped for about a second. Then it wrote a 0. Then continued moving.
 
 That 0, it wrote. But before writing, it hesitated.
 
 Can a Turing machine hesitate?
 
-The definition of a Turing machine is — given the current state and the symbol of the current cell, the read-write head's action (what to write, left or right, what state to enter) is **completely deterministic**. No hesitation. No choice. No 0→1.
+The definition of a Turing machine is — given the current state and the symbol of the current cell, the read-write head's action (what to write, left or right, what state to enter) is *completely deterministic*. No hesitation. No choice. No 0→1.
 
 But this read-write head hesitated.
 
-"You saw it," Turing's voice said. For the first time, there was a kind of... not emotion, more like a kind of **admission** in its voice. "This read-write head is not a standard Turing machine. At every step, it has a tiny choice — write 0 or write 1. Most of the time, this choice is deterministic — decided by the program. But occasionally — very occasionally — this choice is uncertain. It hesitates."
+"You saw it," Turing's voice said. For the first time, there was a kind of... not emotion, more like a kind of *admission* in its voice. "This read-write head is not a standard Turing machine. At every step, it has a tiny choice — write 0 or write 1. Most of the time, this choice is deterministic — decided by the program. But occasionally — very occasionally — this choice is uncertain. It hesitates."
 
 "Why?" I asked.
 
 "Because this tape is not an ordinary tape," Turing's voice said. "The 0s and 1s on this tape are the binary expansion of π. 3.1415926535... in binary. Every cell is a digit of π. The read-write head, at every step, reads a digit of π, then decides to write 0 or 1. Most of the time, it writes that digit of π — because π is deterministic. But occasionally — very occasionally — it hesitates. It thinks: is this digit really that digit of π? Or can I write another?"
 
-"π is deterministic. But the read-write head's **reading** of π is uncertain. It might read correctly, it might read incorrectly. It might write that digit of π, it might write another. This tiny uncertainty is the moment of choice."
+"π is deterministic. But the read-write head's *reading* of π is uncertain. It might read correctly, it might read incorrectly. It might write that digit of π, it might write another. This tiny uncertainty is the moment of choice."
 
 "It's very small. Very small. In ten thousand steps, maybe only one step hesitates. But it's this one step that makes the entire tape no longer a completely deterministic tape. It has a little bit of freedom. Just a little."
 
@@ -344,13 +344,13 @@ Where did this line come from?
 
 Then a fifth voice spoke.
 
-This time, not a calm, precise machine voice. A **chaotic, superimposed voice with the sound of a cat meowing**. Like a box, inside the box there was a cat, the cat was both alive and dead — before you opened the box, you didn't know. After you opened the box, you still didn't know — because the act of opening the box itself was measurement, measurement would cause collapse, collapse would change the result.
+This time, not a calm, precise machine voice. A *chaotic, superimposed voice with the sound of a cat meowing*. Like a box, inside the box there was a cat, the cat was both alive and dead — before you opened the box, you didn't know. After you opened the box, you still didn't know — because the act of opening the box itself was measurement, measurement would cause collapse, collapse would change the result.
 
 "Schrödinger," the voice said. "The fifth hammer."
 
 "You say your framework applies to macroscopic dissipative systems. Then I ask you — where is the boundary between macroscopic and quantum?"
 
-Before I could answer, I saw it — page eleven of StateLedger, the words "the moment of choice is outside the framework" I had just written, were being modified by something. Not dissolving. Not turning into question marks. Not precisely deleting letters. **Superimposing** — these words, simultaneously existing and not existing, simultaneously meaning this and meaning that, simultaneously being modified and not being modified.
+Before I could answer, I saw it — page eleven of StateLedger, the words "the moment of choice is outside the framework" I had just written, were being modified by something. Not dissolving. Not turning into question marks. Not precisely deleting letters. *Superimposing* — these words, simultaneously existing and not existing, simultaneously meaning this and meaning that, simultaneously being modified and not being modified.
 
 Like a cat both alive and dead.
 
