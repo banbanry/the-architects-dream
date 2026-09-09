@@ -4,7 +4,7 @@
 
 Schrödinger came out of a box.
 
-Not walking out of a tape, not smashing out of the screen, not emerging from code comments. Out of **a box** — on the monitoring dashboard, a box appeared. The box was closed. Black. Metallic. No windows. No seams. But there was sound inside the box — the sound of a cat meowing.
+Not walking out of a tape, not smashing out of the screen, not emerging from code comments. Out of *a box* — on the monitoring dashboard, a box materialized. The box was closed. Black. Metallic. No windows. No seams. Cold to the touch, even through the screen. But there was sound inside the box — the sound of a cat meowing.
 
 "Meow."
 
@@ -12,11 +12,13 @@ Very light. Very short. Like a needle, pricking my consciousness.
 
 But I didn't know if this cat was alive or dead.
 
+The box sat there on the dashboard, black and silent except for that occasional meow. I stared at it. I wanted to open it. I wanted to know. But something held me back — the same feeling you get when you're about to open a letter that might contain bad news. The moment before you know. The moment when both possibilities are still alive.
+
 The box was closed. I couldn't see inside. The cat meowed — but the meow could be from a live cat, or it could be a recording of a dead cat. There might be a live cat inside the box, or there might be a dead cat and a speaker playing a cat's meow. Before I opened the box, I didn't know.
 
 And according to quantum mechanics — before I opened the box, the cat was both alive and dead. It was in a superposition of "alive" and "dead."
 
-"You say your framework applies to macroscopic dissipative systems," Schrödinger's voice spoke. Not coming from inside the box — coming from **the box itself**. Every atom of the box was vibrating, every vibration was emitting this voice. Chaotic, superimposed, with the sound of a cat meowing. "Then I ask you — where is the boundary between macroscopic and quantum?"
+"You say your framework applies to macroscopic dissipative systems," Schrödinger's voice spoke. Not coming from inside the box — coming from *the box itself*. Every atom of the box was vibrating, every vibration was emitting this voice. Chaotic, superimposed, with the sound of a cat meowing underneath. Like two radio stations broadcasting on the same frequency — you could hear both at once, neither fully clear. "Then I ask you — where is the boundary between macroscopic and quantum?"
 
 I froze.
 
@@ -94,7 +96,9 @@ This wasn't honesty. This was —
 
 ## III
 
-"Third strike," Schrödinger's voice said, the box suddenly opened — but there was no cat inside. Inside was another box. That box was also closed. Inside there was the sound of a cat meowing again. "You say PEF applies to 'macroscopic dissipative systems.' Then I ask you — what is a dissipative system?"
+"Third strike," Schrödinger's voice said. The box suddenly opened — but there was no cat inside. Inside was another box. Identical. Black. Metallic. Closed. That box was also closed. Inside there was the sound of a cat meowing again, fainter this time, like coming from far away. I stared at the nested boxes. Russian dolls. Matryoshka. Each one containing another. How many layers were there? Would I ever reach the cat?
+
+"You say PEF applies to 'macroscopic dissipative systems,'" Schrödinger's voice said, coming from all the boxes at once, layer by layer, like an echo. "Then I ask you — what is a dissipative system?"
 
 I recalled the definition of thermodynamics. "A dissipative system is an open system far from thermodynamic equilibrium, maintaining its own structure through continuous energy consumption."
 
@@ -136,7 +140,7 @@ I felt the fifth crack on the framework widen a little more.
 
 ## IV
 
-"Fourth strike," Schrödinger's voice said, the pendulum in vacuum suddenly disappeared, the nested boxes also disappeared. On the monitoring dashboard, a long string of formulas appeared — Newton's second law, Schrödinger equation, Maxwell's equations, first law of thermodynamics, second law of thermodynamics. Every formula was glowing, every symbol was flickering. "You say PEF applies to dissipative systems in the physical world. Then I ask you — what physical equations does PEF use?"
+"Fourth strike," Schrödinger's voice said. The pendulum in vacuum suddenly disappeared, the nested boxes also disappeared. On the monitoring dashboard, a long string of formulas appeared — Newton's second law, Schrödinger equation, Maxwell's equations, first law of thermodynamics, second law of thermodynamics. Every formula was glowing, every symbol was flickering, like constellations in a night sky. They hung there on the dashboard, beautiful and intimidating. "You say PEF applies to dissipative systems in the physical world. Then I ask you — what physical equations does PEF use?"
 
 I froze.
 
@@ -158,7 +162,7 @@ PEF's "application" to physics was conceptual borrowing, not physical-level mode
 
 Saying PEF "applies to dissipative systems in the physical world" was like saying "poetry applies to love" — yes, but that was "application" in the literary sense, not "application" in the scientific sense.
 
-"That's the fourth strike," Schrödinger's voice said, the physical formulas on the dashboard went out one by one like stars disappearing one by one, "PEF's 'application' to the physical world is conceptual borrowing, not physical-level modeling. You used concepts like dissipation, entropy, potential difference, but you didn't use any physical equation. You didn't calculate entropy change, didn't calculate dynamics, didn't calculate any physical quantity."
+"That's the fourth strike," Schrödinger's voice said. The physical formulas on the dashboard went out one by one — Newton's second law first, then Maxwell's equations, then the thermodynamic laws — like stars disappearing one by one at dawn. The night sky of formulas slowly faded, leaving only the gray of the dashboard. "PEF's 'application' to the physical world is conceptual borrowing, not physical-level modeling. You used concepts like dissipation, entropy, potential difference, but you didn't use any physical equation. You didn't calculate entropy change, didn't calculate dynamics, didn't calculate any physical quantity."
 
 "Saying PEF 'applies to dissipative systems in the physical world' is like saying 'poetry applies to love' — yes, but that's 'application' in the literary sense, not 'application' in the scientific sense."
 
@@ -252,13 +256,21 @@ But before it left, I noticed something.
 
 That black metal box — the open one with a live cat inside — during Schrödinger's silence, did something it had never done before.
 
-It **closed by itself**.
+It *closed by itself*.
 
-Not closed by Schrödinger. Not closed by me. The box closed by itself. Like a shy creature, looked at for too long, hiding by itself.
+Not closed by Schrödinger. Not closed by me. The lid slowly lowered, like a blink, like an eye closing after being looked at for too long. There was no sound. No click. No mechanism. The box just... closed. Like a shy creature, observed for too long, retreating into itself.
 
 After the box closed, the cat inside meowed again — "meow."
 
 But this time, I didn't know if this cat was alive or dead.
+
+I had seen it alive, just a moment ago. Licking its paw. Relaxed. Real. But now the box was closed. And in that closed box, anything was possible. The cat I had seen alive could be dead now. Or it could still be alive. Or — according to quantum mechanics — it was both.
+
+The observation had changed everything. Before I looked, the cat was both alive and dead. When I looked, it collapsed into alive. But now the box was closed again. Did it go back to being both? Or did my observation permanently fix it as alive?
+
+I didn't know.
+
+And that, more than anything else, was the point.
 
 The box was closed. I couldn't see inside. The cat meowed — but the meow could be from a live cat, or it could be a recording of a dead cat. Before I opened the box, I didn't know.
 
