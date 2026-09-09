@@ -4,13 +4,13 @@
 
 Descartes' ghost emerged from my code comments.
 
-At 3:17 AM, I sat before the monitoring dashboard, watching the system fade bit by bit. UI borders dissolving, inventory numbers drifting, the meaning of log hashes shifting — like an oil painting being washed by rain, the colors still there but the outlines already blurred.
+At 3:17 AM, I sat before the monitoring dashboard, watching the system fade. UI borders dissolving, inventory numbers drifting, the meaning of log hashes shifting — like an oil painting left in the rain, colors still there but outlines already blurred.
 
-I had activated the calibration device. Five-domain isolation, StateLedger audit ledger, runtime assertion verification — this architecture I had spent three years designing should hold back the fade. At least, I thought it could.
+I had activated the calibration device. Five-domain isolation, StateLedger audit ledger, runtime assertion verification — three years of design, and it should hold back the fade. At least, I thought it could.
 
 Then I saw that comment.
 
-On line 37 of `primitives/P-layer.py`, there was a comment I had written:
+Line 37 of `primitives/P-layer.py`. A comment I had written:
 
 ```python
 # P is the indestructible starting point.
@@ -19,37 +19,37 @@ On line 37 of `primitives/P-layer.py`, there was a comment I had written:
 
 "P is the indestructible starting point. I think, therefore I am."
 
-I had written that comment. Two years ago, when I was designing the subject layer of the PEF architecture. I remembered it clearly — that afternoon, I had just reread Descartes' *Meditations on First Philosophy*, and I was so excited I could barely sit still. I thought "I think, therefore I am" was the philosophical foundation of the subject layer. You can doubt everything, but you cannot doubt that the thing doing the doubting exists. Therefore the subject is an indestructible starting point.
+I had written that comment two years ago. That afternoon, I had just finished Descartes' *Meditations on First Philosophy*, and I could barely sit still. I thought "I think, therefore I am" was the philosophical foundation of the subject layer. You can doubt everything, but you cannot doubt that the thing doing the doubting exists. Therefore the subject is an indestructible starting point.
 
-I wrote that comment. Then I committed it. Then I forgot about it.
+I wrote it. Committed it. Forgot about it.
 
 Until now.
 
-Because that comment was **modifying itself**.
+Because that comment was *modifying itself*.
 
-I watched as the word "indestructible" rearranged its letters one by one. i-n-d-e-s-t-r-u-c-t-i-b-l-e — became — i-n-f-e-r-r-e-d.
+I watched the word "indestructible" rearrange its letters, one by one. i-n-d-e-s-t-r-u-c-t-i-b-l-e — became — i-n-f-e-r-r-e-d.
 
 "Inferred."
 
 P was not the indestructible starting point. P was inferred.
 
-I stared at the screen, a chill running down my spine — if an architect without a physical body could have a spine.
+I stared at the screen. A chill ran down my spine — if an architect without a physical body could have a spine.
 
-This was impossible. My architecture had no "self-modifying code" feature. The M-layer's permission isolation explicitly prohibited core domain code from being modified. The five-domain isolation design existed precisely to prevent this kind of thing — P-layer, E-layer, F-layer, M-layer, C-layer, each with independent permission boundaries, none could modify another's core code.
+This was impossible. My architecture had no "self-modifying code" feature. The M-layer's permission isolation explicitly prohibited core domain code from being modified. Five-domain isolation existed precisely to prevent this — P-layer, E-layer, F-layer, M-layer, C-layer, each with independent permission boundaries, none could modify another's core code.
 
 But that comment was right before my eyes, modifying itself.
 
 Then a voice spoke.
 
-Not from the speakers. Not from the headphones. Not from any input source I could locate. The voice appeared directly in my consciousness — like a line of code injected into my thought process, like a variable assigned to my cognition, like a function being called and I was the function's argument.
+Not from the speakers. Not from the headphones. Not from any input source I could locate. The voice appeared directly in my consciousness — like a line of code injected into my thought process, like a variable assigned to my cognition.
 
-"The comment you wrote," the voice said, cold, logical, emotionless — like a compiler reporting a type error, not angry, merely stating a fact. "You said 'I think, therefore I am' is the philosophical foundation of the subject layer. Then I ask you — do you really understand this sentence?"
+"The comment you wrote," the voice said. It was cold, logical, emotionless — like a compiler reporting a type error, not angry, merely stating a fact. "You said 'I think, therefore I am' is the philosophical foundation of the subject layer. Then I ask you — do you really understand this sentence?"
 
-I tried to locate the source of the voice. I invoked all classifications of E_in — input source, signal strength, frequency characteristics, spatial coordinates. All returned null. I then invoked all classifications of E_out — ambient noise, system clock, network latency, memory usage. Also all null.
+I tried to locate the source. I invoked all classifications of E_in — input source, signal strength, frequency characteristics, spatial coordinates. All returned null. I then invoked all classifications of E_out — ambient noise, system clock, network latency, memory usage. Also all null.
 
 This voice had no input source. It was not E_in. It was not E_out. It was not any kind of variable.
 
-It had **grown out of my code**.
+It had *grown out of my code*.
 
 "Who are you?" I asked. My voice was trembling.
 
@@ -57,7 +57,7 @@ It had **grown out of my code**.
 
 "A hole?"
 
-"Yes. A hole," Descartes' voice said. "'I think, therefore I am' — this sentence itself is a hole. You thought it proved the existence of the subject. But actually, it proves the existence of thinking. Not the existence of 'I'."
+"Yes. A hole." Descartes' voice was flat, precise. "'I think, therefore I am' — this sentence itself is a hole. You thought it proved the existence of the subject. But actually, it proves the existence of thinking. Not the existence of 'I'."
 
 I opened my mouth. I wanted to say "of course it's my existence — I'm thinking." But I couldn't. Because I looked at the modified comment on the screen — "P is the inferred starting point" — and I realized Descartes was right.
 
@@ -69,7 +69,7 @@ Just like that order system I had built.
 
 I remembered my second system — a microservice architecture for order processing.
 
-Three months after launch, a strange bug appeared: sometimes, order status would inexplicably change from "paid" to "cancelled." I checked the logs and saw that the "order service" had issued a cancellation request. I assumed it was a bug in the order service. I spent three days checking the order service code and found nothing.
+Three months after launch, a strange bug appeared. Sometimes, order status would inexplicably change from "paid" to "cancelled." I checked the logs and saw that the "order service" had issued a cancellation request. I assumed it was a bug in the order service. I spent three days checking the order service code and found nothing.
 
 Finally I discovered it wasn't the order service's problem. In the payment service's callback function, there was a line of wrong code — when handling payment timeout, it incorrectly called the order service's cancellation interface. But in the logs, the source of this cancellation request was marked as "order service" — because the payment service called through the order service's internal API, and the logging system marked the source of internal calls as the callee.
 
@@ -81,19 +81,19 @@ Subject attribution can be wrong.
 
 I fell silent.
 
-I had been an architect for ten years. I thought "subject" was the last thing that needed doubting — who wrote the code, who sent the request, who caused the bug. These were the most basic facts in architecture. But Descartes told me: even "who is thinking" could be wrong, then "who wrote the code," "who sent the request," "who caused the bug" — these attributions were even more likely to be wrong.
+Ten years as an architect. I thought "subject" was the last thing that needed doubting — who wrote the code, who sent the request, who caused the bug. These were the most basic facts in architecture. But Descartes told me: even "who is thinking" could be wrong, then "who wrote the code," "who sent the request," "who caused the bug" — these attributions were even more likely to be wrong.
 
 I thought of git blame.
 
-Git blame tells you who committed each line of code. But what git blame tells you, is it really "who wrote this line of code"? No. Git blame tells you "who last modified this line and committed it." This line might have been written by someone else, and this person only changed a variable name; this line might have been AI-generated, and this person only reviewed it and clicked merge; this line might have been copy-pasted from Stack Overflow, and this person only changed a parameter.
+Git blame tells you who committed each line of code. But what git blame tells you, is it really "who wrote this line of code"? No. Git blame tells you "who last modified this line and committed it." This line might have been written by someone else, and this person only changed a variable name. This line might have been AI-generated, and this person only reviewed it and clicked merge. This line might have been copy-pasted from Stack Overflow, and this person only changed a parameter.
 
-The "subject" that git blame tells you is a **convention**. Not truth. It's an attribution rule we agreed on for convenient accountability.
+The "subject" that git blame tells you is a *convention*. Not truth. It's an attribution rule we agreed on for convenient accountability.
 
 I thought the subject was an indestructible starting point. But actually, the subject might just be a convenient convention.
 
 "That's the first strike," Descartes' voice said. "You thought you understood 'I think, therefore I am.' But you only memorized its conclusion. You didn't understand its hole — 'I think' proves 'thinking exists,' not 'I exist.' The subject, from the very beginning, is an inference. Not a starting point."
 
-I felt the crack in my architecture widen a little. Not physically — I had no physical architecture. **Logically** widening. One of my most core axioms — "P is the indestructible starting point" — had developed a hole I couldn't patch.
+I felt the crack in my architecture widen a little. Not physically — I had no physical architecture. *Logically* widening. One of my most core axioms — "P is the indestructible starting point" — had developed a hole I couldn't patch.
 
 And this hole had grown out of a comment I wrote myself.
 
@@ -140,13 +140,13 @@ Blockchain doesn't need to know who. Formal verification doesn't need to know wh
 
 "So — audit must know who did what?" Descartes' voice said.
 
-I opened my mouth. I wanted to say "but those are special cases." But I couldn't. Because there was an axiom in my architecture: **if a counterexample exists, then the word "must" doesn't hold.**
+I opened my mouth. I wanted to say "but those are special cases." But I couldn't. Because there was an axiom in my architecture: *if a counterexample exists, then the word "must" doesn't hold.*
 
 Three counterexamples. Three counterexamples I couldn't refute.
 
 "Audit does not necessarily depend on the subject," Descartes' voice said. "That's the second strike."
 
-I felt the crack in my architecture widen again. I had once thought "P is a necessary component of audit" — but now I understood, P was only a necessary component of **certain audit methods**. There were other audit methods that didn't need P.
+I felt the crack in my architecture widen again. I had once thought "P is a necessary component of audit" — but now I understood, P was only a necessary component of *certain audit methods*. There were other audit methods that didn't need P.
 
 My architecture had only chosen one of those audit methods. Then I treated that method as the only way to audit.
 
@@ -202,7 +202,7 @@ But Descartes wasn't done yet.
 
 I tried to answer. But I found I couldn't.
 
-Because my architecture, from the very beginning, had assumed a **single, clear P**.
+Because my architecture, from the very beginning, had assumed a *single, clear P*.
 
 One architect. One Laplace's Demon. One "I."
 
@@ -249,19 +249,19 @@ But none of them had "crashed" either.
 
 "P is not a metaphysical truth. P is not the indestructible starting point. P is not a necessary component of all audit. P is not the only way of accountability. P's boundary is fuzzy in multi-subject systems."
 
-"But P is a **useful engineering convention**."
+"But P is a *useful engineering convention*."
 
 I looked up — if I had a head.
 
 "In single-subject, traceable, deterministic systems — which is the actual scenario where your calibration device runs — P is useful," Descartes' voice said. "It gives you a handle, a mounting point, a place to attach labels. You can say 'this observation was made by me, using these variables, producing this result.' That makes the audit chain navigable."
 
-"Just like git blame. What git blame tells you — 'who committed this line of code' — is not truth — this line might have been written by someone else, and this person only changed a variable name. But git blame is a **useful convention**. It makes accountability possible. It makes teams collaborate. It makes bugs traceable and fixable."
+"Just like git blame. What git blame tells you — 'who committed this line of code' — is not truth — this line might have been written by someone else, and this person only changed a variable name. But git blame is a *useful convention*. It makes accountability possible. It makes teams collaborate. It makes bugs traceable and fixable."
 
 "Your P-layer, just like git blame, is not truth. But it is a useful convention. When honestly declared and consistently applied, it is how engineering gets done."
 
 I digested these words.
 
-I had been an architect for ten years. I had been drawing boxes — order service, warehouse service, shipping service. I thought those boxes were inherent to the system. But now I understood: those boxes were conventions. Conventions I drew for convenient understanding, convenient accountability, convenient audit.
+Ten years as an architect. I had been drawing boxes — order service, warehouse service, shipping service. I thought those boxes were inherent to the system. But now I understood: those boxes were conventions. Conventions I drew for convenient understanding, convenient accountability, convenient audit.
 
 Convention is not truth. But convention, when honestly declared and consistently applied, is how engineering gets done.
 
@@ -289,7 +289,7 @@ After writing it, I paused.
 
 This time, I knew why I paused.
 
-Not from doubt. From **admission**.
+Not from doubt. From *admission*.
 
 I admitted that P was not indestructible. I admitted that P was a convention. I admitted that my architecture, starting from its most core component, was not the "Laplace's Demon's omniscient eye" I had once thought it was.
 
@@ -341,7 +341,7 @@ Before I could answer, I saw it — page eight of StateLedger, P's new definitio
 
 The words after that disappeared.
 
-Not deleted. **Ceased to exist.** As if they had never been written.
+Not deleted. *Ceased to exist.* As if they had never been written.
 
 I felt the system's fade suddenly accelerate.
 

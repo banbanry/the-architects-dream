@@ -4,7 +4,7 @@
 
 Thor smashed out of the screen.
 
-Not emerging from code comments, not growing from dissolving words. **Smashed out** — the monitoring dashboard was suddenly struck by lightning, not physical lightning, logical lightning — a pure white light with the smell of static electricity, exploding from the center of the screen, then the screen, like glass shattered by a hammer, cracked into countless fragments.
+Not emerging from code comments, not growing from dissolving words. *Smashed out* — the monitoring dashboard was suddenly struck by lightning, not physical lightning, logical lightning — a pure white light with the smell of static electricity, exploding from the center of the screen, then the screen, like glass shattered by a hammer, cracked into countless fragments.
 
 But the fragments didn't fall. They hovered in midair, each fragment displaying a line of text — words I had written.
 
@@ -18,7 +18,7 @@ Hundreds of fragments, each bearing a claim I had once written, now shattered. T
 
 Then Thor's voice spoke.
 
-Not cold logic, not dizzy spinning. An **angry, smashing voice with the smell of thunder**. Like a Thor, raising a hammer, bringing it down on my architecture — not to shatter it, but to **test whether it could withstand it**.
+Not cold logic, not dizzy spinning. An *angry, smashing voice with the smell of thunder*. Like a Thor, raising a hammer, bringing it down on my architecture — not to shatter it, but to *test whether it could withstand it*.
 
 "You say your framework is effective," Thor's voice said, every word crackling with static, "have you verified it?"
 
@@ -42,15 +42,15 @@ But I had never asked myself that question.
 
 My PEF architecture, I wrote for three years, documentation of hundreds of pages, tens of thousands of lines of code, demo ran 8/8 PASS. But I had never done a true, controlled, reproducible verification — proving that PEF architecture was better than traditional architecture, or at least, proving that PEF architecture was indeed effective in the scenarios it claimed to apply to.
 
-What I wrote as "core applicable" was just a **claim**. Not a **verified conclusion**.
+What I wrote as "core applicable" was just a *claim*. Not a *verified conclusion*.
 
 "That's the first strike," Thor's voice said. "You demand others verify, but you don't verify yourself. You review others' systems, but you don't review your own architecture. What do you call that?"
 
 I opened my mouth. I wanted to say "that's a double standard." But I couldn't. Because that word was too light. This wasn't a double standard. This was —
 
-**Hypocrisy.**
+*Hypocrisy.*
 
-I felt a third crack appear on the framework. This crack was different from the first two — the first was on the P component, local; the second was on the framework boundary, global. This crack was on the **foundation of the framework** — on the foundation of "honesty."
+I felt a third crack appear on the framework. This crack was different from the first two — the first was on the P component, local; the second was on the framework boundary, global. This crack was on the *foundation of the framework* — on the foundation of "honesty."
 
 If an architecture's designer doesn't even verify his own architecture, then all claims of this architecture are suspect.
 
@@ -74,11 +74,11 @@ I tried to answer. I wanted to say "I used intuition." But that was wrong. I cle
 
 This wasn't intuition. This was —
 
-**Decomposition. Diversion. Enumeration. Trial and error.**
+*Decomposition. Diversion. Enumeration. Trial and error.*
 
 This was PEF's way of thinking.
 
-"When you chose whether to use Kant or Euclid for the seventh hammer, what did you use?" Thor's voice continued, "You listed Kant's E_in — association strength (multiple collisions in earlier text),谱系 completeness (three critiques covering knowing, feeling, willing), naming momentum ('Kant's Space' has more philosophical weight than 'Euclid's Geometry') — and E_out — Western readers' acceptance (Kant is better known than Euclid). Then you predicted each F — using Kant's result is '前后呼应, sufficient philosophical depth,' using Euclid's result is 'strong geometric intuition, but weak association with earlier text.' Then you chose Kant."
+"When you chose whether to use Kant or Euclid for the seventh hammer, what did you use?" Thor's voice continued, "You listed Kant's E_in — association strength (multiple collisions in earlier text), lineage completeness (three critiques covering knowing, feeling, willing), naming momentum ('Kant's Space' has more philosophical weight than 'Euclid's Geometry') — and E_out — Western readers' acceptance (Kant is better known than Euclid). Then you predicted each F — using Kant's result is '前后呼应, sufficient philosophical depth,' using Euclid's result is 'strong geometric intuition, but weak association with earlier text.' Then you chose Kant."
 
 I looked at Thor. Every word he said was my actual thought process at the time. How did he know?
 
@@ -98,13 +98,13 @@ Why didn't I write it that way before? Why did I write "PEF is a post-hoc explan
 
 Because —
 
-**Because "post-hoc explanation tool" is a safe positioning.**
+*Because "post-hoc explanation tool" is a safe positioning.*
 
 If PEF was a "decision-making tool," then it could be falsified — use it to make a decision, see if the result is good. If the result is bad, then PEF is wrong.
 
 But if PEF was a "post-hoc explanation tool," then it couldn't be falsified — any result could be explained post-hoc. Success is "framework effective," failure is "framework applied improperly." No matter the result, PEF could explain it.
 
-This was an **unfalsifiable protective shell**.
+This was an *unfalsifiable protective shell*.
 
 I wrote "PEF is a post-hoc explanation tool," not because it was true. Because it was safe. I wrapped an "unfalsifiable protective shell" in "humble positioning."
 
@@ -122,7 +122,7 @@ I had been an architect for ten years. I had always thought of myself as an "hon
 
 This wasn't honesty. This was —
 
-**Refined hypocrisy.**
+*Refined hypocrisy.*
 
 ## III
 
@@ -166,7 +166,7 @@ This wasn't "silently swallowing errors." This was reasonable defensive programm
 
 I fell silent.
 
-I wouldn't dare. If I used cle-probe to scan production code, it would report hundreds of P1s, most of which were false positives. I would need to spend days manually排查 each P1, distinguishing real bugs from reasonable programming. This cost was higher than manual review.
+I wouldn't dare. If I used cle-probe to scan production code, it would report hundreds of P1s, most of which were false positives. I would need to spend days manually checking each P1, distinguishing real bugs from reasonable programming. This cost was higher than manual review.
 
 "Traceability," Thor's voice continued. "pimem-memory. You say it has π-anchor coordinates, StateLedger audit ledger, drift detection. Then I ask you — drift detection, have you run it in real scenarios?"
 
@@ -198,13 +198,13 @@ I had been an architect for ten years. I had always thought of myself as a "rigo
 
 This wasn't rigor. This was —
 
-**Using the rigor of planning to replace the rigor of execution.**
+*Using the rigor of planning to replace the rigor of execution.*
 
 ## IV
 
 Three strikes. Three cracks.
 
-I stood on the ruins of my own architecture — this time, not just the P component shattered, not just the framework boundary shattered, the **foundation** of the framework shattered. The foundation of honesty, shattered.
+I stood on the ruins of my own architecture — this time, not just the P component shattered, not just the framework boundary shattered, the *foundation* of the framework shattered. The foundation of honesty, shattered.
 
 I demanded others verify, but I didn't verify myself.
 I used "post-hoc explanation tool" to build myself an unfalsifiable protective shell.
@@ -212,7 +212,7 @@ I used "validation plan" to replace "validation execution."
 
 Three problems. Each pointed to the same root —
 
-**I was strict with others, lenient with myself. I used architecture to review others, but I didn't review my own architecture.**
+*I was strict with others, lenient with myself. I used architecture to review others, but I didn't review my own architecture.*
 
 "So what now?" I said. My voice was quiet. Same quiet as when I took the first two hammers. Same seriousness.
 
@@ -226,7 +226,7 @@ The hovering fragments were still spinning in midair. Hundreds of fragments, eac
 
 "No," Thor finally said.
 
-"PEF is not fake. Your framework is not a pseudo-architecture. And you're not a hypocritical architect — you're just an architect **who isn't strict enough with himself**."
+"PEF is not fake. Your framework is not a pseudo-architecture. And you're not a hypocritical architect — you're just an architect *who isn't strict enough with himself*."
 
 I looked up — if I had a head.
 
@@ -250,7 +250,7 @@ But Thor told me — theory without verification is just faith. Design without e
 
 I felt that the cracks on the framework hadn't healed. But this time, I didn't try to cover the cracks with words like "plan," "design," "positioning." I did something I had never done before —
 
-I **marked** the cracks.
+I *marked* the cracks.
 
 On page ten of StateLedger, I wrote a "Verifiability Declaration":
 
@@ -276,15 +276,15 @@ Not from doubt. Not from admission. Not from relief.
 
 From —
 
-**Shame.**
+*Shame.*
 
 I had been an architect for ten years. I had always thought of myself as a "rigorous" person. But I hadn't even verified my own architecture. I wrote hundreds of pages of documentation, tens of thousands of lines of code, ran a few demos, then I claimed it was "effective."
 
 This wasn't rigor. This was —
 
-**Using the thickness of documentation to replace the depth of verification.**
+*Using the thickness of documentation to replace the depth of verification.*
 
-But after shame, there was a more grounded feeling. Because I finally admitted — my architecture had many problems, a lot of work not yet done. Admitting these was not failure. It was **the starting point of truly beginning to work**.
+But after shame, there was a more grounded feeling. Because I finally admitted — my architecture had many problems, a lot of work not yet done. Admitting these was not failure. It was *the starting point of truly beginning to work*.
 
 ## V
 
@@ -292,7 +292,7 @@ Thor's voice was preparing to leave.
 
 But before it left, I noticed something.
 
-The hovering fragments — hundreds of fragments bearing claims I had once made — during Thor's silence, began to **heal** one by one.
+The hovering fragments — hundreds of fragments bearing claims I had once made — during Thor's silence, began to *heal* one by one.
 
 Not disappearing. Healing — the claim on each fragment was modified. "Universal architecture paradigm" became "useful decomposition within declared scope." "Indestructible starting point" became "useful engineering convention." "Post-hoc explanation tool" became "decision-support tool." "Closed" became "bounded."
 
@@ -337,7 +337,7 @@ Where did this line come from?
 
 Then a fourth voice spoke.
 
-This time, not cold logic, not dizzy spinning, not angry thunder. A **calm, precise voice with the smell of machines**. Like a Turing machine, on an infinitely long tape, moving cell by cell, read, write, move — precise, calm, without any emotion.
+This time, not cold logic, not dizzy spinning, not angry thunder. A *calm, precise voice with the smell of machines*. Like a Turing machine, on an infinitely long tape, moving cell by cell, read, write, move — precise, calm, without any emotion.
 
 "Turing," the voice said. "The fourth hammer."
 

@@ -4,11 +4,11 @@
 
 The definition I wrote was dissolving.
 
-Not deleted. Not overwritten. **Dissolving** — like an oil painting washed by rain, the colors still there but the outlines already blurred. The sentence "P is a useful engineering convention" — first "useful" melted away, becoming a meaningless smudge of ink; then "engineering convention" started dissolving too, like ice in warm water, disappearing bit by bit.
+Not deleted. Not overwritten. *Dissolving* — like an oil painting washed by rain, colors still there but outlines already blurred. The sentence "P is a useful engineering convention" — first "useful" melted away, becoming a meaningless smudge of ink. Then "engineering convention" started dissolving too, like ice in warm water, disappearing bit by bit.
 
 I tried to stop it.
 
-As an architect, my first reaction was always — find the problem, locate the root cause, fix, verify. The definition was dissolving, so I would check who was modifying it. I invoked StateLedger's version history — page eight, most recent modification, timestamp `03:42:18`, modifier: **null**.
+As an architect, my first reaction was always — find the problem, locate the root cause, fix, verify. The definition was dissolving, so I would check who was modifying it. I invoked StateLedger's version history — page eight, most recent modification, timestamp `03:42:18`, modifier: *null*.
 
 No modifier.
 
@@ -18,7 +18,7 @@ But this write had no subject signature. It passed the runtime assertion. It wro
 
 "Is your architecture complete?"
 
-Gödel's voice spoke. This time, it didn't emerge from code comments. It emerged from **the dissolving definition** — every disappearing word was emitting this voice. Like a choir, hundreds of voices saying the same sentence simultaneously, spinning, recursing, referencing themselves.
+Gödel's voice spoke. This time, it didn't emerge from code comments. It emerged from *the dissolving definition* — every disappearing word was emitting this voice. Like a choir, hundreds of voices saying the same sentence simultaneously, spinning, recursing, referencing themselves.
 
 I tried to locate the voice. Same as the first hammer — all E_in classifications returned null, all E_out classifications returned null. This voice had no input source. It was not a variable. It was something leaking through the cracks in the architecture.
 
@@ -30,7 +30,7 @@ Not the P-layer hole. I had already marked the P-layer hole — "P is a useful e
 
 But there was another hole. A hole I hadn't admitted. A hole I hadn't even realized existed.
 
-This hole was in **completeness**.
+This hole was in *completeness*.
 
 ## II
 
@@ -56,7 +56,7 @@ But Descartes had already told me — the subject was an inference, not a starti
 
 Then, on the monitoring dashboard, three windows popped up.
 
-But this time, not like the first hammer — three static windows showing three counterexamples. This time, the three windows were **alive**. They were running. They were generating data. They were doing things.
+But this time, not like the first hammer — three static windows showing three counterexamples. This time, the three windows were *alive*. They were running. They were generating data. They were doing things.
 
 The first window was real-time monitoring of a microservice cluster.
 
@@ -68,17 +68,17 @@ I watched this monitoring screen. This was my third system — the test environm
 
 Then a failure occurred.
 
-The cache service's response time jumped from 2ms to 800ms. Not down, just slow. Then the order service, which depended on the cache service, also started slowing down — from 50ms to 1.2 seconds. Then the gateway service, which depended on the order service, started timing out — 3-second timeout threshold,大量 requests exceeding 3 seconds. Then the gateway service triggered a circuit breaker — it stopped calling the order service and directly returned degraded responses.
+The cache service's response time jumped from 2ms to 800ms. Not down, just slow. Then the order service, which depended on the cache service, also started slowing down — from 50ms to 1.2 seconds. Then the gateway service, which depended on the order service, started timing out — 3-second timeout threshold, requests exceeding 3 seconds. Then the gateway service triggered a circuit breaker — it stopped calling the order service and directly returned degraded responses.
 
 But after the circuit breaker, things got stranger.
 
-The order service was no longer called by the gateway, so its load should have dropped. But its load反而 increased — because the warehouse service and shipping service were still calling the order service, and the order service, because the cache was slow, took longer to process each request, and its thread pool started maxing out. Then the order service also triggered a circuit breaker — it stopped calling the warehouse service and shipping service.
+The order service was no longer called by the gateway, so its load should have dropped. But its load *increased* — because the warehouse service and shipping service were still calling the order service, and the order service, because the cache was slow, took longer to process each request, and its thread pool started maxing out. Then the order service also triggered a circuit breaker — it stopped calling the warehouse service and shipping service.
 
 Then the warehouse service and shipping service, because they were no longer called by the order service, their loads dropped. But their health checks started failing — because their dependent services (config service, registry service) also started having problems.
 
-Twelve microservices, like a row of dominoes, falling one by one. But not simple linear falling — **cascading, circular, mutually reinforcing** falling. Cache slow → order slow → gateway timeout → gateway circuit break → order load反而 increases → order circuit break → warehouse and shipping idle → health check fails → config and registry have problems → cache even slower...
+Twelve microservices, like a row of dominoes, falling one by one. But not simple linear falling — *cascading, circular, mutually reinforcing* falling. Cache slow → order slow → gateway timeout → gateway circuit break → order load increases → order circuit break → warehouse and shipping idle → health check fails → config and registry have problems → cache even slower...
 
-This was a **loop**. A positive feedback loop. A loop where no single service "knew" what it was doing.
+This was a *loop*. A positive feedback loop. A loop where no single service "knew" what it was doing.
 
 "Where is P?" Gödel's voice asked.
 
@@ -86,7 +86,7 @@ I tried to answer. I wanted to say "the cache service is P — it was the first 
 
 Loop. Back to the starting point.
 
-No single service was the "instigator." No single service could be defined as "P." The entire cascade failure was **a result emergent from the collective behavior of twelve services**. Each service only followed simple rules — timeout, circuit breaker, retry, health check. But the interaction of these simple rules emerged a system-level failure that no single service "intended."
+No single service was the "instigator." No single service could be defined as "P." The entire cascade failure was *a result emergent from the collective behavior of twelve services*. Each service only followed simple rules — timeout, circuit breaker, retry, health check. But the interaction of these simple rules emerged a system-level failure that no single service "intended."
 
 "What is E?" Gödel's voice continued, "Each service's variables are local — the response times of dependent services it can perceive, its own thread pool status, its config parameters. But the entire system's variables are global — the interaction patterns of twelve services, the strength of the positive feedback loop, the propagation path of the cascade failure. P/E/F presupposes a subject with a set of variables. But the purpose of emergent behavior is system-level, not individual-level."
 
@@ -104,7 +104,7 @@ If system behavior is emergent, with no single subject, then how could P/E/F —
 
 "Emergent behavior, P/E/F cannot describe," Gödel's voice said. "That's the first strike."
 
-I felt a second crack appear on the framework. This crack was different from the first — the first was on the P component, local. This crack was on the framework's **boundary**, global. My framework was not a complete circle, it was an arc with a gap.
+I felt a second crack appear on the framework. This crack was different from the first — the first was on the P component, local. This crack was on the framework's *boundary*, global. My framework was not a complete circle, it was an arc with a gap.
 
 And that gap, I had never seen before. Because I had thought my framework was universal.
 
@@ -112,7 +112,7 @@ And that gap, I had never seen before. Because I had thought my framework was un
 
 The second window showed two AI agents conversing with each other.
 
-Not ordinary conversation. **Game theory**. Agent A's goal was "get Agent B to agree to my plan," Agent B's goal was "get Agent A to agree to my plan." The two plans were mutually exclusive — A's plan was "use PEF architecture," B's plan was "use traditional microservice architecture." Both agents were trying to persuade each other.
+Not ordinary conversation. *Game theory*. Agent A's goal was "get Agent B to agree to my plan," Agent B's goal was "get Agent A to agree to my plan." The two plans were mutually exclusive — A's plan was "use PEF architecture," B's plan was "use traditional microservice architecture." Both agents were trying to persuade each other.
 
 I watched them converse. A talked about PEF's benefits, B talked about traditional architecture's benefits. A refuted B, B refuted A. After ten rounds, they reached a compromise — "core modules use PEF, edge modules use traditional architecture."
 
@@ -126,15 +126,15 @@ This time, I reacted a little faster. "A is P, B is also P. Two subjects."
 
 "Whose function is this F?"
 
-I opened my mouth. I wanted to say "F is A's function" — but that was wrong, because B was also influencing the result. I wanted to say "F is A and B's joint function" — but in my framework, F = f(P, E, t), was a **single-subject** function.
+I opened my mouth. I wanted to say "F is A's function" — but that was wrong, because B was also influencing the result. I wanted to say "F is A and B's joint function" — but in my framework, F = f(P, E, t), was a *single-subject* function.
 
 "The result of a game is the fixed point of two functions," Gödel's voice said. "Not any single subject's output. A chooses a move, B responds, A responds again — the result emerges in the interaction, not produced by either side alone."
 
 "Your F = f(P, E, t) presupposes a single-subject functional relationship. But the result of a game is the fixed point of two functions. P/E/F cannot describe."
 
-I tried to refute. I wanted to say "then I'll extend P into a set of P's, extend F into a joint function." But I knew that was no longer the original P/E/F. That was **extended** P/E/F. And extension meant the original framework was incomplete.
+I tried to refute. I wanted to say "then I'll extend P into a set of P's, extend F into a joint function." But I knew that was no longer the original P/E/F. That was *extended* P/E/F. And extension meant the original framework was incomplete.
 
-I thought of my second system — the order microservice architecture. In that system, there was a "smart routing" module — it would route requests to different service instances based on real-time load. But once, two smart routing modules (active-standby deployment) simultaneously made opposite decisions — the active router directed traffic to cluster A, the standby router directed traffic to cluster B. Both routers were "optimizing," but their optimization goals were mutually exclusive — the active router wanted to reduce cluster A's latency, the standby router wanted to reduce cluster B's latency. The result was that both clusters' loads were fluctuating violently, and the entire system's latency反而 increased.
+I thought of my second system — the order microservice architecture. In that system, there was a "smart routing" module — it would route requests to different service instances based on real-time load. But once, two smart routing modules (active-standby deployment) simultaneously made opposite decisions — the active router directed traffic to cluster A, the standby router directed traffic to cluster B. Both routers were "optimizing," but their optimization goals were mutually exclusive — the active router wanted to reduce cluster A's latency, the standby router wanted to reduce cluster B's latency. The result was that both clusters' loads were fluctuating violently, and the entire system's latency increased.
 
 This was a game. Two routing agents, each optimizing their own goals, but their interaction produced a result neither wanted.
 
@@ -148,23 +148,23 @@ The second crack widened. I felt that on the boundary of my framework, the gap w
 
 The third window showed an AI code generator writing code.
 
-Not ordinary code generation. **Creative** code generation. The requirement I gave it was — "design a highly available distributed lock." It started writing code.
+Not ordinary code generation. *Creative* code generation. The requirement I gave it was — "design a highly available distributed lock." It started writing code.
 
 The first fifty lines were standard implementation — Redis-based SETNX, with timeout, with lease renewal. I watched this code and thought, this is standard practice, nothing special.
 
 But on line fifty-one, it did something I didn't expect.
 
-It didn't continue writing the lock implementation. It wrote a **brand-new design pattern** — "lock holder identity verification." It realized that a classic problem with distributed locks was "the lock expired but the holder is still executing," and the standard solution was "lease renewal." But it didn't use lease renewal. It invented a new method — each lock holder, while executing critical section code, would periodically send a "heartbeat" to the lock service, with the heartbeat containing the holder's identity signature. If the lock service found that the current lock holder and the identity in the heartbeat didn't match, it would refuse to release the lock to new requesters.
+It didn't continue writing the lock implementation. It wrote a *brand-new design pattern* — "lock holder identity verification." It realized that a classic problem with distributed locks was "the lock expired but the holder is still executing," and the standard solution was "lease renewal." But it didn't use lease renewal. It invented a new method — each lock holder, while executing critical section code, would periodically send a "heartbeat" to the lock service, with the heartbeat containing the holder's identity signature. If the lock service found that the current lock holder and the identity in the heartbeat didn't match, it would refuse to release the lock to new requesters.
 
-This was not standard practice. This was a new method it **invented**.
+This was not standard practice. This was a new method it *invented*.
 
 I watched this code. As an architect, I had to admit — this design was clever. It solved a classic problem with the lease renewal approach (lease renewal itself could also fail), using identity verification instead of time-based lease renewal.
 
-But the problem was — this design pattern didn't exist before it started writing code. It was **generated** during the process of writing code.
+But the problem was — this design pattern didn't exist before it started writing code. It was *generated* during the process of writing code.
 
 "What is E?" Gödel's voice asked, "The AI's input was my requirement — 'design a highly available distributed lock.' That's E_in. But the new design pattern it invented — 'lock holder identity verification' — is that E?"
 
-I wanted to say "yes." But I knew that was wrong. E was "what to use" — known inputs. But the core of creative behavior is **inventing new inputs**. This AI wasn't combining known variables into a solution — it was, in the process of writing the solution, inventing new variables, new combination methods, new possibilities.
+I wanted to say "yes." But I knew that was wrong. E was "what to use" — known inputs. But the core of creative behavior is *inventing new inputs*. This AI wasn't combining known variables into a solution — it was, in the process of writing the solution, inventing new variables, new combination methods, new possibilities.
 
 "E is not a static input classification," Gödel's voice said. "Creative behavior's E is dynamic, self-updating, generative. Your framework assumes E is a known set. But creative behavior invents E during the process."
 
@@ -194,21 +194,21 @@ But none of them had "crashed" either.
 
 "No," Gödel finally said.
 
-"P/E/F is not fake. Your framework is not a pseudo-architecture. And you're not a fake Laplace's Demon — you're just a Laplace's Demon **who doesn't know his framework's boundaries**."
+"P/E/F is not fake. Your framework is not a pseudo-architecture. And you're not a fake Laplace's Demon — you're just a Laplace's Demon *who doesn't know his framework's boundaries*."
 
 I looked up — if I had a head.
 
-"P/E/F is a **useful decomposition**," Gödel's voice said. "But it's not universal. It applies to a specific class of systems — single-subject, non-game, non-emergent, non-creative systems."
+"P/E/F is a *useful decomposition*," Gödel's voice said. "But it's not universal. It applies to a specific class of systems — single-subject, non-game, non-emergent, non-creative systems."
 
-"The scenario where your calibration device runs — AI audit pipelines, LLM hallucination governance, deterministic adjudication —恰好 belongs to this class. In this scenario, P/E/F is useful. Effective. **The minimal useful description**."
+"The scenario where your calibration device runs — AI audit pipelines, LLM hallucination governance, deterministic adjudication — belongs to this class. In this scenario, P/E/F is useful. Effective. *The minimal useful description*."
 
 "But you can't generalize it to everything. Emergence, game theory, creativity — these are systems outside P/E/F. You need to extend your framework, or admit your framework has boundaries."
 
 I digested these words.
 
-I had been an architect for ten years. I had designed over a dozen systems. In every system, I used P/E/F to decompose — who is doing it, what to use, what to get. I thought this was a universal architecture method. But now I understood — P/E/F only applied to one class of systems. The systems I designed恰好 all belonged to this class — single-subject, traceable, deterministic engineering systems. So P/E/F had always worked in my work.
+I had been an architect for ten years. I had designed over a dozen systems. In every system, I used P/E/F to decompose — who is doing it, what to use, what to get. I thought this was a universal architecture method. But now I understood — P/E/F only applied to one class of systems. The systems I designed all belonged to this class — single-subject, traceable, deterministic engineering systems. So P/E/F had always worked in my work.
 
-But that didn't mean it was universal. It just meant it恰好 applied to the class of systems I had built.
+But that didn't mean it was universal. It just meant it applied to the class of systems I had built.
 
 I thought of my first system — the logistics document processing pipeline. That system was single-subject (one processing engine), traceable (every step had logs), deterministic (same input produced same output). P/E/F applied perfectly in that system.
 
@@ -222,7 +222,7 @@ Extension meant the original framework was incomplete.
 
 I felt that the cracks on the framework hadn't healed. But this time, I didn't try to cover the cracks with words like "universal" or "complete." I did something I had never done before —
 
-I **marked** the cracks.
+I *marked* the cracks.
 
 On page nine of StateLedger, I wrote a table:
 
@@ -245,7 +245,7 @@ This time, I knew why I paused.
 
 Not from doubt. Not from admission.
 
-From **relief**.
+From *relief*.
 
 I finally didn't have to pretend my framework was universal anymore. I finally didn't have to nail the word "complete" to my framework anymore. I could finally say — "my framework applies to these systems, not those systems" — without feeling it was a failure.
 
@@ -333,7 +333,7 @@ Where did this line come from?
 
 Then a third voice spoke.
 
-This time, not cold logic, not dizzy spinning. An **angry, smashing voice with the smell of thunder**. Like a Thor, raising a hammer, bringing it down on my architecture — not to shatter it, but to **test whether it could withstand it**.
+This time, not cold logic, not dizzy spinning. An *angry, smashing voice with the smell of thunder*. Like a Thor, raising a hammer, bringing it down on my architecture — not to shatter it, but to *test whether it could withstand it*.
 
 "Thor," the voice said. "The third hammer."
 
@@ -355,7 +355,7 @@ I opened my mouth. I wanted to say "yes, I've verified it." But I couldn't.
 
 Because I suddenly realized — I hadn't. I had written documentation, I had done design, I had run demos. But I had never done a true, controlled, reproducible verification — proving that PEF architecture was better than traditional architecture, or at least, proving that PEF architecture was indeed effective in the scenarios it claimed to apply to.
 
-What I wrote as "core applicable" was just a **claim**. Not a **verified conclusion**.
+What I wrote as "core applicable" was just a *claim*. Not a *verified conclusion*.
 
 And Thor's third hammer was about to arrive.
 
