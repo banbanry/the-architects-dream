@@ -4,11 +4,11 @@
 
 Schrödinger came out of a box.
 
-Not walking out of a tape, not smashing out of the screen, not emerging from code comments. Out of *a box* — on the monitoring dashboard, a box materialized. The box was closed. Black. Metallic. No windows. No seams. Cold to the touch, even through the screen. The metal had a faint iridescent sheen, like oil on water, like the surface of a bubble that hasn't popped yet. But there was sound inside the box — the sound of a cat meowing.
+Not walking out of a tape, not smashing out of the screen, not emerging from code comments. Out of *a box* — on the monitoring dashboard, a box materialized. The box was closed. Black. Metallic. No windows. No seams. Cold to the touch, even through the screen. The metal had a faint iridescent sheen. But there was sound inside the box — the sound of a cat meowing.
 
 "Meow."
 
-Very light. Very short. Like a needle, pricking my consciousness. Like a question, asked in a language I almost understood.
+Very light. Very short. A question, asked in a language I almost understood.
 
 But I didn't know if this cat was alive or dead.
 
@@ -18,7 +18,7 @@ The box was closed. I couldn't see inside. The cat meowed — but the meow could
 
 And according to quantum mechanics — before I opened the box, the cat was both alive and dead. It was in a superposition of "alive" and "dead." Not half-alive, not half-dead. *Both.* Fully. Simultaneously. A state that had no equivalent in the classical world. A state that made no sense to a human brain evolved to understand cats that are either alive or dead, never both.
 
-"You say your framework applies to macroscopic dissipative systems," Schrödinger's voice spoke. Not coming from inside the box — coming from *the box itself*. Every atom of the box was vibrating, every vibration was emitting this voice. Chaotic, superimposed, with the sound of a cat meowing underneath. Like two radio stations broadcasting on the same frequency — you could hear both at once, neither fully clear. Like a man speaking in two languages simultaneously, each sentence a perfect translation of the other, and neither one more real than the other. This was the voice of a man who had written *What Is Life?* — a physicist who had asked the question that would eventually lead to the discovery of DNA. A man who had written poetry. A man who had loved too many women and hated too few. A man who had invented the cat to prove that quantum mechanics was absurd — and had accidentally created the most famous thought experiment in the history of physics. "Then I ask you — where is the boundary between macroscopic and quantum?"
+"You say your framework applies to macroscopic dissipative systems," Schrödinger's voice spoke. Not coming from inside the box — coming from *the box itself*. Every atom of the box was vibrating, every vibration was emitting this voice. Chaotic, superimposed, with the sound of a cat meowing underneath. This was the voice of a man who had written *What Is Life?* — a physicist who had asked the question that would eventually lead to the discovery of DNA. A man who had written poetry. A man who had loved too many women and hated too few. A man who had invented the cat to prove that quantum mechanics was absurd — and had accidentally created the most famous thought experiment in the history of physics. "Then I ask you — where is the boundary between macroscopic and quantum?"
 
 I froze.
 
@@ -38,7 +38,15 @@ Even photosynthesis — a biological process, a macroscopic, dissipative, living
 
 Between macroscopic and quantum, there was no clear boundary.
 
-"That's the first strike," Schrödinger's voice said, the metal surface of the box rippling with the voice like water blown by wind, "you say PEF applies to macroscopic dissipative systems, not to quantum ideal models. But between macroscopic and quantum there's no clear boundary. A quantum computer is macroscopic, but it's quantum. A superconducting circuit is macroscopic, but it's quantum. Photosynthesis is macroscopic, dissipative, living, but it has quantum components."
+I thought about this more. I had been an architect for ten years. I had designed distributed systems. I had dealt with uncertainty every day — network latency, packet loss, node failures, clock drift. I had always thought of these as "engineering problems" — things to be mitigated, things to be worked around. But I had never thought of them as "quantum effects" — as fundamental limits to knowledge, as things that could not be eliminated, only managed.
+
+But that was what quantum mechanics was — a fundamental limit to knowledge. You could not know both the position and momentum of a particle precisely. You could not know the result of a measurement without changing the result. These were not engineering problems. These were fundamental limits.
+
+And my framework — my PEF framework — was designed for a world without these limits. A world where you could know everything, where you could measure everything, where you could trace everything. A classical, deterministic, traceable world.
+
+But the real world was not like that. The real world had quantum effects. The real world had fundamental limits to knowledge. The real world had cats that were both alive and dead.
+
+"That's the first strike," Schrödinger's voice said, the metal surface of the box rippling with the voice, "you say PEF applies to macroscopic dissipative systems, not to quantum ideal models. But between macroscopic and quantum there's no clear boundary. A quantum computer is macroscopic, but it's quantum. A superconducting circuit is macroscopic, but it's quantum. Photosynthesis is macroscopic, dissipative, living, but it has quantum components."
 
 "Your 'macroscopic vs. quantum' dichotomy is too crude."
 
