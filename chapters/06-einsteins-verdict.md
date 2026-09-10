@@ -4,21 +4,17 @@
 
 Einstein came out of the bending of spacetime.
 
-Not out of a box, not walking out of a tape, not smashing out of the screen, not emerging from code comments. Out of *the bending of spacetime* — the monitoring dashboard began to bend. Not physical bending, logical bending — the four corners of the screen began to dent toward the center, like a huge mass placed at the center of the screen, bending the surrounding spacetime. The text on the screen began to stretch, compress, distort — text near the center compressed into a point, text far from the center stretched into a line.
+Not out of a box, not walking out of a tape, not smashing out of the screen, not emerging from code comments. Out of *the bending of spacetime* — the monitoring dashboard began to bend. Not physical bending, logical bending — the four corners of the screen began to dent toward the center. The text on the screen began to stretch, compress, distort — text near the center compressed into a point, text far from the center stretched into a line.
 
-Like gravitational lensing. Like an accretion disk around a black hole. Like spacetime bent by a huge mass. Like the photograph taken by the Event Horizon Telescope in 2019 — that first image of a black hole, a ring of fire around a darkness that swallowed everything, even light.
-
-I felt it before I saw it. A pull. Not physical — I was standing on solid ground, I didn't fall. But my *attention* was being pulled toward the center of the screen. My thoughts were bending. My lines of reasoning, usually straight and logical, were curving, warping, orbiting around something I couldn't see. Like light passing a massive object — it didn't go straight. It bent. And my thoughts, too, were bending.
+I felt it before I saw it. A pull. Not physical — I was standing on solid ground, I didn't fall. But my *attention* was being pulled toward the center of the screen. My thoughts were bending. My lines of reasoning, usually straight and logical, were curving, warping, orbiting around something I couldn't see.
 
 Then Einstein's voice spoke.
 
 Not coming from a specific location. Coming from *spacetime itself* — every bent point of spacetime was vibrating, every vibration was emitting this voice. Calm, authoritative, with the smell of gravity and old paper and violin music and pipe tobacco. You couldn't hear its voice, what you felt was the bending of spacetime. Your consciousness was stretched, compressed, distorted. Every word carried gravity, every pause carried ripples of spacetime.
 
-It was like standing near a massive object. You didn't hear the mass. You felt the curvature.
-
 This was the voice of a man who had been a patent clerk in Bern, who had written four papers in 1905 that changed the world, who had played the violin while thinking about the universe, who had said "God does not play dice" and spent the last thirty years of his life trying to prove it — and failing. A man who had fled Nazi Germany, who had warned Roosevelt about the atomic bomb, who had spent his final years in a small house in Princeton, walking to the Institute for Advanced Study every day, talking to Gödel, asking questions that no one could answer. A man who had bent spacetime with his mind, and now was bending the monitoring dashboard with his voice.
 
-"You say your framework uses π-anchor as time coordinates," Einstein's voice said, like a huge mass placed at the center of my consciousness, bending all my lines of thought, "then I ask you — what is time?"
+"You say your framework uses π-anchor as time coordinates," Einstein's voice said, "then I ask you — what is time?"
 
 I froze.
 
@@ -39,6 +35,16 @@ I had always been using relative time. But in PEF, I treated π-anchor as "time 
 The Nth digit of π, on any node, at any time, in any environment, was the same. This was Newton's absolute time — flowing uniformly, independent of the observer.
 
 But real time wasn't like that. Real time was relative.
+
+I thought about this more. I had been an architect for ten years. I had designed distributed systems. I had dealt with clock drift, clock offset, distributed consistency problems every day. I knew time was relative. I had used Lamport clocks, vector clocks, hybrid logical clocks. I had written code to handle clock synchronization.
+
+But when designing PEF, I forgot all this. I treated π-anchor as absolute time coordinates, as if time flowed uniformly, independent of the observer. I returned to Newton's era.
+
+Why? Because PEF's calibration device currently ran in a single-node environment. In a single-node environment, the absolute time assumption was fine — only one clock, no clock synchronization problem, no distributed consistency problem. So I used the absolute time assumption.
+
+But if PEF was to expand to distributed environments — which I had always wanted to do — the absolute time assumption would become a problem. I needed to incorporate the relativity of time into architecture design.
+
+This wasn't an unfixable problem. It was — work I hadn't done yet.
 
 "That's the first strike," Einstein's voice said, the bending of spacetime intensified a little, the text at the center of the screen compressed into an unrecognizable point, "you use π-anchor as time coordinates. But π-anchor's time is Newton's absolute time — flowing uniformly, independent of the observer. And real time is relative — dependent on the observer's state of motion and gravitational field. In distributed systems, time is also relative — different nodes have different clocks, clocks will drift, will offset."
 
