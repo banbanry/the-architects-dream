@@ -122,11 +122,11 @@ An ancient story. A story about a cave.
 
 "Then who is the person who walked out of the cave?" I asked, "who walked out of the cave?"
 
-"The seven hammers," the shadow's voice said, seven shadows appeared on the cave wall — Descartes, Gödel, Thor, Turing, Schrödinger, Einstein, Kant — the shadows of seven people who walked out of the cave, "seven philosophers, are the people who walked out of the cave. They broke free from the chains of P/E/F, walked out of the cave, saw the real world. Then they returned to the cave, telling you that what you saw was just shadows."
+"The seven hammers," the shadow's voice said, seven shadows appeared on the cave wall — Descartes, Gödel, Nietzsche, Turing, Schrödinger, Einstein, Kant — the shadows of seven people who walked out of the cave, "seven philosophers, are the people who walked out of the cave. They broke free from the chains of P/E/F, walked out of the cave, saw the real world. Then they returned to the cave, telling you that what you saw was just shadows."
 
 "Descartes told you — the subject is an inference, not a starting point. The P you see is just a shadow on the wall, not the real subject."
 "Gödel told you — the framework is incomplete. The P/E/F decomposition you see is just a shadow on the wall, not real completeness."
-"Thor told you — you don't verify. The audit conclusions you see are just shadows on the wall, not real verification."
+"Nietzsche told you — you don't verify. The audit conclusions you see are just shadows on the wall, not real verification."
 "Turing told you — choice has three layers. The 1→N you see is just a shadow on the wall, not real choice."
 "Schrödinger told you — physical concepts are metaphors. The dissipative structures you see are just shadows on the wall, not real physics."
 "Einstein told you — time is relative. The π coordinates you see are just shadows on the wall, not real time."
@@ -353,7 +353,7 @@ Not a two-dimensional perfect circle. Not a physical pixel circle. A circle *bei
 
 A circle being drawn. A boundary being established. A shadow being cast.
 
-And around that circle, seven hammers floated — Descartes, Gödel, Thor, Turing, Schrödinger, Einstein, Kant. And above the circle, π hummed — 3.1415926535..., the infinite non-repeating sequence, the one thing that could not be negated. And below the circle, the shadow stretched — flat, two-dimensional, honest, undistorted, carrying information about a three-dimensional world it could never fully contain.
+And around that circle, seven hammers floated — Descartes, Gödel, Nietzsche, Turing, Schrödinger, Einstein, Kant. And above the circle, π hummed — 3.1415926535..., the infinite non-repeating sequence, the one thing that could not be negated. And below the circle, the shadow stretched — flat, two-dimensional, honest, undistorted, carrying information about a three-dimensional world it could never fully contain.
 
 This was the PEF framework. Not reality. Not a perfect description of reality. A circle being drawn. A boundary being established. A shadow being cast. Honest about what it was. Honest about what it lost. Honest about what it could and could not measure.
 

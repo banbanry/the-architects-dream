@@ -333,9 +333,9 @@ Where did this line come from?
 
 Then a third voice spoke.
 
-This time, not cold logic, not dizzy spinning. An *angry, smashing voice with the smell of thunder*. Like a Thor, raising a hammer, bringing it down on my architecture — not to shatter it, but to *test whether it could withstand it*.
+This time, not cold logic, not dizzy spinning. A *quiet, sharp voice with the sound of a small hammer tapping*. Like Nietzsche, carrying a geologist's hammer, tapping idols to see which ones ring hollow — not to shatter them, but to *listen to the ring*.
 
-"Thor," the voice said. "The third hammer."
+"Nietzsche," the voice said. "The third hammer."
 
 "Is your framework verifiable?"
 
@@ -349,7 +349,7 @@ Not slowing down a little. Speeding up again.
 
 Like a falling object, just caught, then shoved again.
 
-"Verifiability," Thor's voice said. "You say your framework applies to these systems. But have you verified it?"
+"Verifiability," Nietzsche's voice said. "You say your framework applies to these systems. But have you verified it?"
 
 I opened my mouth. I wanted to say "yes, I've verified it." But I couldn't.
 
@@ -357,7 +357,7 @@ Because I suddenly realized — I hadn't. I had written documentation, I had don
 
 What I wrote as "core applicable" was just a *claim*. Not a *verified conclusion*.
 
-And Thor's third hammer was about to arrive.
+And Nietzsche's third hammer was about to arrive.
 
 ---
 
@@ -373,7 +373,7 @@ And Thor's third hammer was about to arrive.
 >
 > Completeness is not whether your framework can describe everything. It's whether your framework has internal self-contradictions.
 >
-> And the question Thor asks is harsher — even if your framework has no self-contradictions, have you verified that it actually works?
+> And the question Nietzsche asks is harsher — even if your framework has no self-contradictions, have you verified that it actually works?
 >
 > "Core applicable" — is that a claim? Or a verified conclusion?
 >
@@ -385,4 +385,4 @@ And Thor's third hammer was about to arrive.
 
 *The second hammer falls. P/E/F transforms from "universal architecture paradigm" to "useful decomposition within declared scope." Laplace's Demon finally admits his framework has boundaries — and admitting boundaries is not failure, it's the beginning of honesty.*
 
-*But the beginning of honesty is not the end of verification. Thor's third hammer has already arrived — is your framework verifiable?*
+*But the beginning of honesty is not the end of verification. Nietzsche's third hammer has already arrived — is your framework verifiable?*
