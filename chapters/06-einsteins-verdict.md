@@ -6,15 +6,17 @@ Einstein came out of the bending of spacetime.
 
 Not out of a box, not walking out of a tape, not smashing out of the screen, not emerging from code comments. Out of *the bending of spacetime* — the monitoring dashboard began to bend. Not physical bending, logical bending — the four corners of the screen began to dent toward the center, like a huge mass placed at the center of the screen, bending the surrounding spacetime. The text on the screen began to stretch, compress, distort — text near the center compressed into a point, text far from the center stretched into a line.
 
-Like gravitational lensing. Like an accretion disk around a black hole. Like spacetime bent by a huge mass.
+Like gravitational lensing. Like an accretion disk around a black hole. Like spacetime bent by a huge mass. Like the photograph taken by the Event Horizon Telescope in 2019 — that first image of a black hole, a ring of fire around a darkness that swallowed everything, even light.
 
-I felt it before I saw it. A pull. Not physical — I was standing on solid ground, I didn't fall. But my *attention* was being pulled toward the center of the screen. My thoughts were bending. My lines of reasoning, usually straight and logical, were curving, warping, orbiting around something I couldn't see.
+I felt it before I saw it. A pull. Not physical — I was standing on solid ground, I didn't fall. But my *attention* was being pulled toward the center of the screen. My thoughts were bending. My lines of reasoning, usually straight and logical, were curving, warping, orbiting around something I couldn't see. Like light passing a massive object — it didn't go straight. It bent. And my thoughts, too, were bending.
 
 Then Einstein's voice spoke.
 
-Not coming from a specific location. Coming from *spacetime itself* — every bent point of spacetime was vibrating, every vibration was emitting this voice. Calm, authoritative, with the smell of gravity. You couldn't hear its voice, what you felt was the bending of spacetime. Your consciousness was stretched, compressed, distorted. Every word carried gravity, every pause carried ripples of spacetime.
+Not coming from a specific location. Coming from *spacetime itself* — every bent point of spacetime was vibrating, every vibration was emitting this voice. Calm, authoritative, with the smell of gravity and old paper and violin music and pipe tobacco. You couldn't hear its voice, what you felt was the bending of spacetime. Your consciousness was stretched, compressed, distorted. Every word carried gravity, every pause carried ripples of spacetime.
 
 It was like standing near a massive object. You didn't hear the mass. You felt the curvature.
+
+This was the voice of a man who had been a patent clerk in Bern, who had written four papers in 1905 that changed the world, who had played the violin while thinking about the universe, who had said "God does not play dice" and spent the last thirty years of his life trying to prove it — and failing. A man who had fled Nazi Germany, who had warned Roosevelt about the atomic bomb, who had spent his final years in a small house in Princeton, walking to the Institute for Advanced Study every day, talking to Gödel, asking questions that no one could answer. A man who had bent spacetime with his mind, and now was bending the monitoring dashboard with his voice.
 
 "You say your framework uses π-anchor as time coordinates," Einstein's voice said, like a huge mass placed at the center of my consciousness, bending all my lines of thought, "then I ask you — what is time?"
 
@@ -278,25 +280,31 @@ That black hole — anti-vector collapse — that formula extinguished in the fo
 
 It *emitted a faint glow*.
 
-Not recovering its original light. A very faint, very unstable glow, like a candle flame in a draft. At the edge of the black hole, near the event horizon, a point of light was flickering. On, off. On, off. Like something struggling to be born. Like a hypothesis that hadn't been proven yet, but refused to die.
+Not recovering its original light. A very faint, very unstable glow, like a candle flame in a draft. At the edge of the black hole, near the event horizon, a point of light was flickering. On, off. On, off. Like something struggling to be born. Like a hypothesis that hadn't been proven yet, but refused to die. Like a question that hadn't been answered, but refused to be silenced.
 
 Like Hawking radiation.
 
-I stared at that faint glow. A black hole wasn't supposed to emit light. That was the definition of a black hole — nothing escaped, not even light. But here it was. A tiny flicker at the edge. A reminder that even the darkest things could radiate. Even the most unverified concepts could have a spark of truth.
+I stared at that faint glow. A black hole wasn't supposed to emit light. That was the definition of a black hole — nothing escaped, not even light. But here it was. A tiny flicker at the edge. A reminder that even the darkest things could radiate. Even the most unverified concepts could have a spark of truth. Even the most failed ideas could leave a trace — a faint, unstable, flickering trace, like a candle in a draft, like a question that wouldn't die.
 
-"You saw it," Einstein's voice said, for the first time there was a kind of... not emotion, more like a kind of **appreciation** in its voice, "that black hole — anti-vector collapse — hasn't completely died. It's emitting Hawking radiation."
+"You saw it," Einstein's voice said, for the first time there was a kind of... not emotion, more like a kind of **appreciation** in its voice. The appreciation of a man who had spent thirty years trying to prove that God didn't play dice, and had failed — but who still believed, in the deepest part of his being, that the universe was rational, that there was order beneath the chaos, that even the darkest things could radiate. "That black hole — anti-vector collapse — hasn't completely died. It's emitting Hawking radiation."
 
-"Hawking radiation?" I asked.
+"Hawking radiation?" I asked. My voice was quiet. Almost a whisper.
 
-"Right," Einstein's voice said. "A black hole isn't completely black. It radiates energy through quantum effects, this radiation is called Hawking radiation. The anti-vector collapse function, although unverified, isn't completely unreasonable. π's infinite expansion is indeed harder to compress than an auto-increment counter — this is a reasonable intuition, just hasn't been experimentally verified yet."
+"Right," Einstein's voice said. "A black hole isn't completely black. It radiates energy through quantum effects, this radiation is called Hawking radiation. Stephen Hawking predicted it in 1974. At the time, everyone thought he was wrong. A black hole, by definition, couldn't emit anything. But Hawking showed — through quantum field theory in curved spacetime — that black holes do radiate. Very slowly. Very faintly. But they radiate. And eventually, they evaporate."
 
-"So it's not a completely false concept. It's a — hypothesis to be verified. A hypothesis supported by reasonable intuition, but without experimental evidence yet."
+"The anti-vector collapse function, although unverified, isn't completely unreasonable. π's infinite expansion is indeed harder to compress than an auto-increment counter — this is a reasonable intuition, just hasn't been experimentally verified yet."
+
+"So it's not a completely false concept. It's a — hypothesis to be verified. A hypothesis supported by reasonable intuition, but without experimental evidence yet. Like Hawking radiation in 1974. Everyone thought it was wrong. But it was right. It just took forty years to verify."
 
 "Don't treat it as an established function. Don't treat it as a completely false concept either. Treat it as a — hypothesis to be verified. Then go verify it."
 
-I looked at the faint glow at the edge of that black hole. A very faint, very unstable glow, like a candle flame. At the edge of the black hole, near the event horizon, flickering.
+I looked at the faint glow at the edge of that black hole. A very faint, very unstable glow, like a candle flame. At the edge of the black hole, near the event horizon, flickering. On, off. On, off.
 
-Like a conjecture that hadn't been proven yet. Like a hypothesis that hadn't been verified yet. Like a possibility that hadn't been realized yet.
+Like a conjecture that hadn't been proven yet. Like a hypothesis that hadn't been verified yet. Like a possibility that hadn't been realized yet. Like Hawking radiation in 1974 — faint, unstable, controversial, but real.
+
+And I thought — maybe that's what all ideas are, before they're verified. Black holes. Dark. Seemingly dead. But emitting a faint glow at the edge. A glow that says: I'm not completely dead. I might be something. Go verify me.
+
+Maybe that's what my architecture was, too. A black hole. Dark. Seemingly dead after six hammers. But emitting a faint glow at the edge. A glow that said: I'm not completely dead. I might be something. Go verify me.
 
 Then, Einstein's voice disappeared.
 
