@@ -4,7 +4,7 @@
 
 Nietzsche walked in carrying a hammer.
 
-Not emerging from code comments, not growing from dissolving words, not smashing out of the screen in a lightning strike. He simply *walked in* — the monitoring dashboard flickered once, like a candle in a draft, and then he was there. A man with a thick mustache, wild eyes that burned with a feverish intensity, and a hammer in his hand. Not Thor's hammer — not Mjölnir, not the weapon of a god. A *small* hammer. A geologist's hammer. The kind you use to tap on idols to see if they're hollow. The head was worn smooth from years of use. The handle was dark with sweat.
+Not emerging from code comments, not growing from dissolving words, not smashing out of the screen in a lightning strike. He simply *walked in* — the monitoring dashboard flickered once, and then he was there. A man with a thick mustache, wild eyes that burned with a feverish intensity, and a hammer in his hand. Not Thor's hammer — not Mjölnir, not the weapon of a god. A *small* hammer. A geologist's hammer. The kind you use to tap on idols to see if they're hollow. The head was worn smooth from years of use. The handle was dark with sweat.
 
 He looked at the dashboard. At the claims I had written. At the monument I had built to my own architecture.
 
@@ -12,11 +12,11 @@ And he tapped one of them with the hammer.
 
 *Tap.*
 
-The sound was small. Precise. Like a fingernail on a wine glass. Like a doctor's reflex hammer on a knee. Like something testing, not destroying.
+The sound was small. Precise. Something testing, not destroying.
 
 "PEF is a universal architecture paradigm."
 
-The claim didn't shatter. It *rang*. Like a bell. Like a hollow idol. The sound hung in the air, high and thin and wrong, and I felt it in my teeth — the same feeling as standing too close to a speaker playing a frequency just below hearing.
+The claim didn't shatter. It *rang*. High and thin and wrong, and I felt it in my teeth — the same feeling as standing too close to a speaker playing a frequency just below hearing.
 
 *Tap.*
 
@@ -28,13 +28,13 @@ Another ring. Higher pitched. Even more hollow. This one made my ears ring. I wa
 
 "PEF is a post-hoc explanation tool, not a decision-making tool."
 
-This one didn't ring. It *clanged*. Dull. Heavy. Like something trying very hard to sound solid but wasn't. Like a lead bell. Like a lie told too loudly.
+This one didn't ring. It *clanged*. Dull. Heavy. Something trying very hard to sound solid but wasn't.
 
 Nietzsche turned to me. His eyes were bright, intense, the eyes of a man who had spent his entire life tapping idols to see which ones were hollow — and who had gone mad, in the end, from the sound of all that hollowness.
 
 "You know what I do with idols?" he said. His voice was quiet. Not angry. Not thundering. *Quiet* — and for that reason, far more terrifying than any thunder. "I don't smash them. Smashing is for gods. I *tap* them. I tap them with a hammer. And I listen. The hollow ones ring. The solid ones don't. And then — I write down which ones rang."
 
-He held up the hammer. It was small. Ordinary. Nothing divine about it. But the way he held it — like a tuning fork, like an instrument of truth, like something that had been used to test every idol in the history of philosophy — made it feel heavier than Mjölnir.
+He held up the hammer. It was small. Ordinary. Nothing divine about it. But the way he held it — like a tuning fork, like an instrument of truth — made it feel heavier than Mjölnir.
 
 "This is how one philosophizes with a hammer," he said. "Not as a weapon. As a *tuning fork*. You tap the idol, and the idol tells you what it is."
 
@@ -44,7 +44,17 @@ Every one. Hollow.
 
 The sound was still in my ears. A high, thin, wrong sound. The sound of my own architecture, being tested, and failing.
 
-"So," Nietzsche said, setting the hammer down on the dashboard like a doctor setting down a stethoscope, "let us revalue your values. One by one."
+I had been an architect for ten years. I had reviewed countless systems. Every time, I would tap their idols — "is this verified?" "is this reproducible?" "is this falsifiable?" — and when they rang, I would write it down. I would mark it. I would tell them: this is not verified. This is a claim, not a conclusion.
+
+But I had never — not once, in ten years — tapped my own idol.
+
+I had built a monument to my own architecture. I had written hundreds of pages of documentation. I had run a few demos. I had called it "effective." And I had never once asked: is this verified? Is this reproducible? Is this falsifiable?
+
+I had been strict with others. Lenient with myself.
+
+And Nietzsche had just walked in, tapped my monument three times, and every tap had rung.
+
+"So," Nietzsche said, setting the hammer down on the dashboard, "let us revalue your values. One by one."
 
 ## II
 
@@ -64,7 +74,7 @@ He paused. Tapped the hammer against his palm. Once. Twice.
 
 I froze.
 
-"When was the last time you demanded verification from *yourself*? When was the last time you ran a true, controlled, reproducible verification — proving that PEF architecture is better than traditional architecture, or at least, proving that PEF architecture is indeed effective in the scenarios it claims to apply to?"
+"When was the last time you demanded verification from *yourself*? When was the last time you ran a true, controlled, reproducible verification — proving that PEF architecture is better than traditional architecture, or at least, proving that PEF architecture was indeed effective in the scenarios it claimed to apply to?"
 
 I opened my mouth. I wanted to say "the demo — 8/8 PASS." But I couldn't. Because I knew — the demo running only proved the code had no syntax errors. It didn't prove the architecture was right. It didn't prove the method was effective. It didn't prove the claims were verifiable.
 
@@ -87,6 +97,16 @@ I felt a third crack appear on the framework. This crack was different from the 
 Nietzsche called it *Redlichkeit*. Honesty. The only virtue he truly respected. The virtue of tapping your own idols and listening to the ring.
 
 And I had failed it.
+
+I had been an architect for ten years. I had always thought of myself as an "honest" person. I wrote documentation. I did reviews. I ran tests. I told the truth in post-mortems. I took responsibility for failures.
+
+But I had never — not once — tapped my own architecture. I had never asked: is this verified? Is this reproducible? Is this falsifiable? I had written the documentation, I had run the demos, I had called it "effective" — and I had believed it. I had *truly* believed it.
+
+But belief is not verification. Belief is just — belief. And the idol I had built, the monument I had erected, the framework I had called "universal" — it had rung when Nietzsche tapped it. Three times. Three rings. Three hollow sounds.
+
+And I had heard them.
+
+That was the first step. The hardest step. The step most people never take — hearing the ring of your own idol.
 
 ## III
 
