@@ -94,7 +94,73 @@ The thought should have terrified me. It didn't. It felt — right. Like coming 
 
 ## II
 
-Then the system began to fade.
+The post-mortem was at 10 AM.
+
+I walked into the conference room already knowing what would happen. The projector was on. The incident report was open. The VP of Engineering was sitting at the head of the table, his laptop open, his face carefully neutral — the face of a man who had already decided whose fault this was, and was just waiting for the right moment to say it.
+
+The programmers were there. The on-call engineer was there. The product manager was there. Everyone was there, except the people who had actually built the system three years ago — they had left, or been promoted, or forgotten.
+
+The VP started without preamble.
+
+"Three months. You spent three months redesigning this architecture. And three days after launch, it explodes at 2 AM."
+
+He didn't look up from his laptop. His voice was flat, measured, the kind of voice that had been practiced in a hundred post-mortems before this one.
+
+"Explain to me why we needed a new architecture at all. The old one worked. It was ugly. It was a mess. But it *worked*. We had AI tools that could patch the bugs. We had dashboards that could hide the latency. We had PPTs that could make a cheese tower look like a wedding cake."
+
+He looked up then. His eyes were sharp.
+
+"And you decided to throw it all away. For what? For *PEF*? For subject-variable-result? For some new framework nobody's ever heard of?"
+
+The room was silent. I could feel the programmers looking at me — some sympathetic, some relieved it wasn't them in the hot seat, some quietly pleased that the architect who had made their lives difficult for three months was finally getting what he deserved.
+
+In the back of the room, a young programmer — twenty-four, fresh out of school, had joined the team six months ago, had never known anything but the old system — muttered something under his breath.
+
+I heard it. Everyone heard it. The room was that quiet.
+
+"Architects don't even write code. They just draw boxes."
+
+Nobody laughed. But nobody disagreed either.
+
+I opened my mouth to explain. To tell them that the old system wasn't working — it was a mountain of shit held together by AI patches and wishful thinking, that every bug fix created three new bugs, that the "wedding cake" in the PPT was actually a cheese tower rotting from the inside out, that PEF wasn't just a new framework, it was a way to *see* the system clearly, to deconstruct it to its core, to find the variables that mattered and the ones that didn't.
+
+But I didn't say any of it.
+
+Because I knew they wouldn't understand. Not because they were stupid. Not because they were lazy. But because they were *comfortable*.
+
+The old architecture was familiar. They knew its quirks. They knew its workarounds. They knew which buttons to press and which levers to pull to make it do what they wanted. It was a shit mountain, but it was *their* shit mountain, and they knew every rock and every crevice.
+
+PEF was new. PEF was different. PEF forced them to think differently — to classify variables, to define subjects, to trace results. PEF broke their habits. PEF made them uncomfortable.
+
+And people don't like being uncomfortable. People don't like having their habits broken. People don't like being told that the mountain they've been living on for three years is actually made of shit, and the AI patches are just air freshener, and the PPTs are just frosting on a cheese tower.
+
+So they call the architect names. They say he doesn't write code. They say he just draws boxes. They say he's making their lives difficult for no reason.
+
+Because it's easier to blame the architect than to admit that the system you've been living in is rotting, and the person trying to fix it is the only one who can smell the rot.
+
+I didn't say any of that. I just stood there, in front of the projector, in front of the VP, in front of the programmers, in front of the kid who had called me a box-drawer, and I said the only thing I could say.
+
+"The root cause was a misconfigured retry mechanism in the shipping service. No backoff. Thirty-second timeout. When the third-party API timed out, the retry storm flooded the connection pool. Cascade failure."
+
+The VP nodded. He wrote something down.
+
+"And the fix?"
+
+"Circuit breaker. Three-second timeout. Exponential backoff. Rate limiting. Degradation for non-core paths."
+
+"Good." He closed his laptop. "Make sure it doesn't happen again."
+
+The meeting ended. People filed out. The kid who had called me a box-drawer avoided eye contact. The VP gave me a pat on the shoulder — *you're our best architect* — and walked away.
+
+I stood alone in the conference room, staring at the incident report on the projector. The root cause. The fix. The action items. Clean. Neat. Professional.
+
+Nobody asked about PEF. Nobody asked why the old system had failed. Nobody asked what the real problem was.
+
+Because the real problem wasn't a misconfigured retry mechanism. The real problem was that nobody wanted to see the cheese tower for what it was. The real problem was that PEF — a new way of seeing, a new way of deconstructing, a new way of being honest about what was broken — was uncomfortable. And people would rather live in a comfortable shit mountain than face an uncomfortable truth.
+
+I turned off the projector. The room went dark.
+
+And then the system began to fade.
 
 Not the kind of red alert you see on a dashboard. Something stranger. Something quieter. Something that didn't trigger any alarm because the alarms themselves were fading.
 
