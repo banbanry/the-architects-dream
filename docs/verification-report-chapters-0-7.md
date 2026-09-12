@@ -32,7 +32,7 @@
 **证据示例**：
 - 序章："the screen began to fade"、"alarm blared"、"cold sweat"
 - 第1章："code comments dissolving"、"Descartes' voice like cold logic"
-- 第3章："Thor smashed the screen"、"static electricity smell"、"hundreds of fragments"
+- 第3章："Nietzsche smashed the screen"、"static electricity smell"、"hundreds of fragments"
 - 第5章："box cold to the touch"、"cat meowing like two radio stations"、"formulas like constellations"
 - 第6章："attention being pulled"、"thoughts curving"、"black hole emitting faint glow"
 - 第7章："space like a cathedral"、"seven methods like constellations"、"π's voice like hum of universe"
@@ -94,7 +94,7 @@
 **证据示例**（每章结尾钩子）：
 - 序章："Six more were coming."
 - 第1章："Gödel's second hammer was about to arrive."
-- 第2章："Thor's third hammer was about to arrive."
+- 第2章："Nietzsche's third hammer was about to arrive."
 - 第3章："Turing's fourth hammer was about to arrive."
 - 第4章："Schrödinger's fifth hammer was about to arrive."
 - 第5章："Einstein's sixth hammer was about to arrive."

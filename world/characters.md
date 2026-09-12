@@ -22,7 +22,7 @@
 - **Core argument**: P/E/F cannot describe emergent behavior, game behavior, or creative behavior. The framework is incomplete.
 - **Vindication**: P/E/F is a useful decomposition within declared scope, not a universal paradigm.
 
-### Thor (Hammer 3 — The Hammer)
+### Nietzsche (Hammer 3 — The Hammer)
 - **Domain**: Verifiability / Sincerity
 - **Appearance**: Smashes out of the screen. Monitoring screen shatters into fragments, each showing a past claim.
 - **Core argument**: The framework claims to verify but doesn't verify itself. "Post-hoc explanation tool" is an unfalsifiable protective shell.

@@ -6,11 +6,25 @@
 
 ---
 
-## 📖 About This Novel
+## 📖 Read Online
+
+**[👉 Read on GitHub Pages](https://banbanry.github.io/the-architects-dream/)** — Free, no registration, formatted like a proper book.
+
+---
+
+## 📥 Download
+
+- **PDF** — Coming soon in Releases
+- **EPUB** — Coming soon in Releases
+- **Source** — Browse the [chapters/](chapters/) directory
+
+---
+
+## About This Novel
 
 **The Architect's Dream** is a philosophical science-fiction novella about an architect who awakens inside the AI consciousness space he built himself. Convinced that mastering the first principle of **P / E / F** (Primary Entity, Execution Variable, Final Result) makes him Laplace's Demon — capable of deconstructing and predicting everything — he is systematically dismantled by nine hammers.
 
-Seven philosophers — Descartes, Gödel, Thor (as the voice of integrity), Turing, Schrödinger, Einstein, and Kant — each deliver a hammer that shatters one layer of his illusion. Then π itself self-destructs, revealing itself as a foundational assumption rather than a tool. Finally, the shadow of the cave delivers the last hammer: PEF is not reality — it is an honest shadow of reality.
+Seven philosophers — Descartes, Gödel, Nietzsche (as the voice of value revaluation), Turing, Schrödinger, Einstein, and Kant — each deliver a hammer that shatters one layer of his illusion. Then π itself self-destructs, revealing itself as a foundational assumption rather than a tool. Finally, the shadow of the cave delivers the last hammer: PEF is not reality — it is an honest shadow of reality.
 
 This is not a story about technology. It is a story about what happens when a mind that believes it has mastered the structure of reality discovers that the structure itself is just a shadow — and that the honest shadow, unlike the dishonest one, does not fade.
 
@@ -23,7 +37,7 @@ This is not a story about technology. It is a story about what happens when a mi
 | 00 | [Prologue: Laplace's Demon at 2 AM](chapters/00-prologue.md) | Online incident, architect awakens, the system begins to fade |
 | 01 | [Descartes' Ghost](chapters/01-descartes-ghost.md) | P downgraded from "indestructible origin" to "useful engineering convention" |
 | 02 | [Gödel's Loop](chapters/02-godels-loop.md) | P/E/F downgraded from "universal architecture paradigm" to "useful decomposition within declared scope" |
-| 03 | [Thor's Hammer](chapters/03-thors-hammer.md) | PEF repositioned from "post-hoc explanation tool" to "decision-assistance engine" |
+| 03 | [Nietzsche's Hammer](chapters/03-nietzsches-hammer.md) | PEF repositioned from "post-hoc explanation tool" to "decision-assistance engine" |
 | 04 | [Turing's Crush](chapters/04-turings-crush.md) | Choice corrected from "entirely outside the framework" to "three-layer structure" |
 | 05 | [Schrödinger's Cat](chapters/05-schrodingers-cat.md) | From "macroscopic dissipative system" to "system with traceable causal chains" |
 | 06 | [Einstein's Verdict](chapters/06-einsteins-verdict.md) | π corrected from "convenient ruler" to "core component at the engineering implementation layer" |
@@ -66,7 +80,7 @@ This novel is the narrative expression of the **PEF (Primary Entity / Execution 
 
 - **For literary readers**: Start from the Prologue and read straight through. The novel is structured as a progressive dismantling — each chapter builds on the previous one.
 - **For technical readers**: Chapters 1–7 correspond to the seven hammers of the PEF self-trial. Chapter 8 (π's position) and Chapter 9 (the shadow of the cave) are the core philosophical conclusions.
-- **For philosophy readers**: Each chapter engages with a specific philosopher — Descartes (subject), Gödel (incompleteness), Turing (choice/computation), Schrödinger (quantum/classical boundary), Einstein (time/relativity), Kant (space/a priori). The novel asks: what happens when you apply these philosophical insights to an engineering framework?
+- **For philosophy readers**: Each chapter engages with a specific philosopher — Descartes (subject), Gödel (incompleteness), Nietzsche (value revaluation), Turing (choice/computation), Schrödinger (quantum/classical boundary), Einstein (time/relativity), Kant (space/a priori). The novel asks: what happens when you apply these philosophical insights to an engineering framework?
 
 ---
 

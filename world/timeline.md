@@ -30,8 +30,8 @@
 - **Dashboard**: "Verifiability check: FAILED" appears.
 - **Timestamp shift**: +1 second.
 
-### Chapter 3: Thor's Hammer (Hammer 3 — Verifiability Layer)
-- Thor smashes out of the screen. Monitoring screen shatters into fragments, each showing a past claim.
+### Chapter 3: Nietzsche's Hammer (Hammer 3 — Verifiability Layer)
+- Nietzsche smashes out of the screen. Monitoring screen shatters into fragments, each showing a past claim.
 - Three strikes: (1) demands others verify but doesn't verify itself (demo's 8/8 PASS verifies demo runs, not framework effectiveness); (2) "post-hoc explanation tool" is an unfalsifiable protective shell (but architect uses PEF for decisions daily); (3) four functions (audit/trace/verify/reproduce) all insufficiently empirically validated.
 - **Correction**: PEF repositioned as "decision-assistance engine." "Verifiability Declaration" written.
 - **StateLedger page 3** written.

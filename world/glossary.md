@@ -67,7 +67,7 @@ Descartes' foundational proposition: "I think, therefore I am." Challenged in Ch
 The nine sequential assaults on the architect's illusions:
 1. Descartes' Ghost — Subject layer
 2. Gödel's Loop — Logic/Completeness layer
-3. Thor's Hammer — Verifiability/Sincerity layer
+3. Nietzsche's Hammer — Verifiability/Sincerity layer
 4. Turing's Crush — Choice/0-to-1 layer
 5. Schrödinger's Cat — Physics/Quantum boundary layer
 6. Einstein's Verdict — Time/π layer
