@@ -14,8 +14,8 @@
 
 ## 📥 Download
 
-- **PDF** — Coming soon in Releases
-- **EPUB** — Coming soon in Releases
+- **[EPUB](https://github.com/banbanry/the-architects-dream/releases/download/v1.0.0/the-architects-dream.epub)** — For e-readers (Kindle, Kobo, Apple Books, etc.)
+- **[PDF](https://github.com/banbanry/the-architects-dream/releases/download/v1.0.0/the-architects-dream.pdf)** — For desktop reading and printing
 - **Source** — Browse the [chapters/](chapters/) directory
 
 ---
