@@ -86,7 +86,17 @@ This novel is the narrative expression of the **PEF (Primary Entity / Execution 
 
 ## 📄 License
 
-This work is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) — Attribution-NonCommercial-NoDerivatives.
+This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — Attribution-NonCommercial-ShareAlike.
+
+**What this means:**
+- ✅ You may read, share, and distribute this work freely
+- ✅ You may translate, adapt, remix, and build upon this work for non-commercial purposes
+- ✅ You may create fan works, derivative stories, and adaptations
+- ❌ You may not use this work for commercial purposes without permission
+- ⚠️ If you adapt or build upon this work, you must distribute your contributions under the same license (CC BY-NC-SA 4.0)
+- ⚠️ You must give appropriate credit, provide a link to the license, and indicate if changes were made
+
+**For commercial use or licensing inquiries**, please contact the author through the GitHub repository.
 
 ---
 
