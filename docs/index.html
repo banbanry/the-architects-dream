@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Architect's Dream — A Sci-Fi Novella</title>
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=JetBrains+Mono:wght@400;500;700&family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap">
+<style>
+/* ===== CSS Variables ===== */
+:root {
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-tertiary: #21262d;
+  --border: #30363d;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-muted: #6e7681;
+  --accent-red: #f85149;
+  --accent-blue: #58a6ff;
+  --accent-green: #3fb950;
+  --accent-gold: #d29922;
+  --accent-purple: #bc8cff;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --font-serif: 'Noto Serif SC', Georgia, serif;
+  --font-sans: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ===== Reset & Base ===== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ===== Pi Digital Stream Background ===== */
+.pi-stream {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+  opacity: 0.06;
+}
+.pi-digit {
+  position: absolute;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--accent-blue);
+  animation: piFall linear infinite;
+  white-space: nowrap;
+}
+@keyframes piFall {
+  0% { transform: translateY(-100vh); }
+  100% { transform: translateY(100vh); }
+}
+
+/* ===== Layout ===== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ===== Navigation ===== */
+nav {
+  position: sticky;
+  top: 0;
+  background: rgba(13, 17, 23, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  z-index: 100;
+}
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+.nav-logo {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--accent-gold);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.nav-logo .pi { color: var(--accent-gold); }
+.nav-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+.nav-links a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 14px;
+  font-family: var(--font-mono);
+  transition: color 0.2s;
+}
+.nav-links a:hover { color: var(--text-primary); }
+
+/* ===== Hero Section ===== */
+.hero {
+  padding: 120px 0 80px;
+  text-align: center;
+  position: relative;
+}
+.hero-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  background: rgba(210, 153, 34, 0.1);
+  border: 1px solid var(--accent-gold);
+  border-radius: 20px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--accent-gold);
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+}
+.hero h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(48px, 8vw, 96px);
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-gold) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.hero-subtitle {
+  font-size: clamp(16px, 2vw, 20px);
+  color: var(--text-secondary);
+  max-width: 700px;
+  margin: 0 auto 48px;
+  line-height: 1.8;
+}
+.hero-author {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 48px;
+}
+.hero-author span { color: var(--accent-blue); }
+.hero-cta {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s;
+  cursor: pointer;
+  border: none;
+}
+.btn-primary {
+  background: var(--accent-gold);
+  color: var(--bg-primary);
+}
+.btn-primary:hover {
+  background: #e0a832;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(210, 153, 34, 0.3);
+}
+.btn-secondary {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+}
+.btn-secondary:hover {
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+}
+
+/* ===== Stats Section ===== */
+.stats {
+  padding: 60px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-secondary);
+}
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+  text-align: center;
+}
+.stat-item {
+  padding: 24px;
+}
+.stat-value {
+  font-family: var(--font-mono);
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--accent-blue);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.stat-label {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.stat-loading {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+/* ===== Section Headers ===== */
+.section {
+  padding: 80px 0;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.section-tag {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--accent-gold);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.section-title {
+  font-family: var(--font-serif);
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.section-desc {
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+/* ===== About Section ===== */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+.about-text p {
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+.about-text strong { color: var(--text-primary); }
+.concept-box {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 32px;
+  font-family: var(--font-mono);
+}
+.concept-title {
+  font-size: 14px;
+  color: var(--accent-gold);
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.concept-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+.concept-row:last-child { border-bottom: none; }
+.concept-letter {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+.concept-letter.p { background: rgba(88, 166, 255, 0.15); color: var(--accent-blue); }
+.concept-letter.e { background: rgba(63, 185, 80, 0.15); color: var(--accent-green); }
+.concept-letter.f { background: rgba(248, 81, 73, 0.15); color: var(--accent-red); }
+.concept-info h4 {
+  font-size: 14px;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.concept-info p {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* ===== Chapters Section ===== */
+.chapters-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.chapter-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px 32px;
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  gap: 24px;
+  align-items: center;
+  transition: all 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+.chapter-card:hover {
+  border-color: var(--accent-gold);
+  transform: translateX(4px);
+  background: var(--bg-tertiary);
+}
+.chapter-number {
+  font-family: var(--font-mono);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-align: center;
+}
+.chapter-card.core .chapter-number { color: var(--accent-gold); }
+.chapter-card.epilogue .chapter-number { color: var(--accent-purple); }
+.chapter-content h3 {
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.chapter-title-cn {
+  color: var(--text-primary);
+}
+.chapter-title-en {
+  color: var(--text-muted);
+  font-size: 14px;
+  font-family: var(--font-mono);
+}
+.chapter-philosopher {
+  display: inline-block;
+  padding: 2px 10px;
+  background: rgba(88, 166, 255, 0.1);
+  border: 1px solid rgba(88, 166, 255, 0.3);
+  border-radius: 4px;
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--accent-blue);
+}
+.chapter-card.core .chapter-philosopher {
+  background: rgba(210, 153, 34, 0.1);
+  border-color: rgba(210, 153, 34, 0.3);
+  color: var(--accent-gold);
+}
+.chapter-summary {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-top: 8px;
+  line-height: 1.6;
+}
+.chapter-source {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+.chapter-source svg { width: 14px; height: 14px; }
+.chapter-card:hover .chapter-source { color: var(--accent-gold); }
+
+/* ===== Clone Section ===== */
+.clone-section {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.clone-box {
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.clone-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: var(--bg-tertiary);
+  border-bottom: 1px solid var(--border);
+}
+.clone-title {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.clone-dots {
+  display: flex;
+  gap: 6px;
+}
+.clone-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.clone-dot.red { background: #ff5f56; }
+.clone-dot.yellow { background: #ffbd2e; }
+.clone-dot.green { background: #27c93f; }
+.copy-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.copy-btn:hover {
+  border-color: var(--accent-green);
+  color: var(--accent-green);
+}
+.copy-btn.copied {
+  border-color: var(--accent-green);
+  color: var(--accent-green);
+  background: rgba(63, 185, 80, 0.1);
+}
+.clone-body {
+  padding: 24px;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  line-height: 1.8;
+}
+.clone-prompt { color: var(--accent-green); }
+.clone-command { color: var(--accent-blue); }
+.clone-comment { color: var(--text-muted); font-style: italic; }
+
+/* ===== Footer ===== */
+footer {
+  padding: 48px 0;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.footer-logo {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  color: var(--accent-gold);
+  font-weight: 700;
+}
+.footer-links {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  transition: color 0.2s;
+}
+.footer-links a:hover { color: var(--text-primary); }
+.footer-copy {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .about-grid { grid-template-columns: 1fr; }
+  .chapter-card {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .chapter-number { text-align: left; }
+  .chapter-source { white-space: normal; }
+  .hero { padding: 80px 0 60px; }
+  .section { padding: 60px 0; }
+}
+</style>
+</head>
+<body>
+
+<!-- Pi Digital Stream Background -->
+<div class="pi-stream" id="piStream"></div>
+
+<!-- Navigation -->
+<nav>
+  <div class="container nav-inner">
+    <div class="nav-logo">
+      <span class="pi">π</span> The Architect's Dream
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#chapters">Chapters</a></li>
+      <li><a href="#clone">Clone</a></li>
+      <li><a href="https://github.com/banbanry/the-architects-dream" target="_blank">GitHub</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">// SCI-FI NOVELLA · 11 CHAPTERS · PEF FIRST PRINCIPLES</div>
+    <h1>The Architect's<br>Dream</h1>
+    <p class="hero-subtitle">
+      An architect who thought he was Laplace's Demon. Nine hammers that shattered every illusion. 
+      One π anchor that held everything together. A story about first principles, architecture, 
+      and the courage to admit what you cannot prove.
+    </p>
+    <p class="hero-author">By <span>Shen Lu</span> · 沈鹭</p>
+    <div class="hero-cta">
+      <a href="#chapters" class="btn btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        Read the Story
+      </a>
+      <a href="https://github.com/banbanry/the-architects-dream" target="_blank" class="btn btn-secondary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        View on GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-value" id="statStars"><span class="stat-loading">...</span></div>
+        <div class="stat-label">Stars</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value" id="statForks"><span class="stat-loading">...</span></div>
+        <div class="stat-label">Forks</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value" id="statChapters">11</div>
+        <div class="stat-label">Chapters</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value" id="statWords">~90K</div>
+        <div class="stat-label">Chinese Words</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">// ABOUT THE STORY</div>
+      <h2 class="section-title">What is this about?</h2>
+      <p class="section-desc">A journey from illusion to honesty, told through nine philosophical hammers.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          <strong>An architect believes he is Laplace's Demon.</strong> He has mastered the 
+          <strong>P/E/F framework</strong> — Subject, Variable, Result. With enough variables, 
+          he can predict anything. With the right combination, he can win everything.
+        </p>
+        <p>
+          Then the system begins to fade. Colors wash out. Integers lose their edges. 
+          Seven philosophers arrive — Descartes, Gödel, Nietzsche, Turing, Schrödinger, 
+          Einstein, Kant — each with a hammer. Each shatters one layer of his illusion.
+        </p>
+        <p>
+          After the seventh hammer, he chooses to live. Not as a demon, but as a teacher. 
+          Then π reveals itself — the one thing no hammer can shatter. The foundation assumption 
+          beneath everything. The homunculus at the core of the framework.
+        </p>
+        <p>
+          The ninth hammer is the shadow itself. The story is a shadow of reality. 
+          The framework is a shadow of the world. And honesty is not about eliminating shadows — 
+          it's about <strong>measuring how far the shadow is from the thing itself</strong>.
+        </p>
+      </div>
+      <div class="concept-box">
+        <div class="concept-title">// PEF FIRST PRINCIPLES</div>
+        <div class="concept-row">
+          <div class="concept-letter p">P</div>
+          <div class="concept-info">
+            <h4>Subject (主体)</h4>
+            <p>Who is doing. Must have a name, boundary, unit.</p>
+          </div>
+        </div>
+        <div class="concept-row">
+          <div class="concept-letter e">E</div>
+          <div class="concept-info">
+            <h4>Variable (变量)</h4>
+            <p>What is used. E_in = controllable, E_out = uncontrollable.</p>
+          </div>
+        </div>
+        <div class="concept-row">
+          <div class="concept-letter f">F</div>
+          <div class="concept-info">
+            <h4>Result (结果)</h4>
+            <p>What is obtained. Must be traceable to (P, E, t).</p>
+          </div>
+        </div>
+        <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border);">
+          <div style="font-size: 12px; color: var(--accent-gold); margin-bottom: 8px;">π ANCHOR</div>
+          <p style="font-size: 12px; color: var(--text-muted); line-height: 1.6;">
+            The undeterminable foundation. Outside P/E/F. The reference frame that gives all variables their position. Unprovable. Vulnerable. Essential.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Chapters Section -->
+<section class="section" id="chapters" style="background: var(--bg-secondary);">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">// TABLE OF CONTENTS</div>
+      <h2 class="section-title">Nine Hammers + Prologue + Epilogue</h2>
+      <p class="section-desc">Each chapter links directly to its source file on GitHub.</p>
+    </div>
+    <div class="chapters-list">
+      
+      <a class="chapter-card" href="https://github.com/banbanry/the-architects-dream/blob/main/chapters/00-prologue.md" target="_blank">
+        <div class="chapter-number">00</div>
+        <div class="chapter-content">
+          <h3>
+            <span class="chapter-title-cn">序章：拉普拉斯妖</span>
+            <span class="chapter-title-en">Prologue: Laplace's Demon</span>
+          </h3>
+          <p class="chapter-summary">The architect believes he can predict everything. The system begins to fade. The first hint that something is wrong.</p>
+        </div>
+        <div class="chapter-source">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          chapters/00-prologue.md
+        </div>
+      </a>
+
+      <a class="chapter-card" href="https://github.com/banbanry/the-architects-dream/blob/main/chapters/01-descartes-ghost.md" target="_blank">
+        <div class="chapter-number">01</div>
+        <div class="chapter-content">
+          <h3>
+            <span class="chapter-title-cn">笛卡尔的幽灵</span>
+            <span class="chapter-title-en">Descartes' Ghost</span>
+            <span class="chapter-philosopher">Descartes</span>
+          </h3>
+          <p class="chapter-summary">The Subject layer shatters. "I think, therefore I am" — but who is the "I"? The architect's P component is exposed as a convention.</p>
+        </div>
+        <div class="chapter-source">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          chapters/01-descartes-ghost.md
+        </div>
+      </a>
+
+      <a class="chapter-card" href="https://github.com/banbanry/the-architects-dream/blob/main/chapters/02-godels-loop.md" target="_blank">
+        <div class="chapter-number">02</div>
+        <div class="chapter-content">
+          <h3>
+            <span class="chapter-title-cn">哥德尔的环</span>
+            <span class="chapter-title-en">Gödel's Loop</span>
+            <span class="chapter-philosopher">Gödel</span>
+          </h3>
+          <p class="chapter-summary">The Logic layer shatters. The framework cannot prove its own completeness. Fixed points, emergence, and the limits of formal systems.</p>
+        </div>
+        <div class="chapter-source">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          chapters/02-godels-loop.md
+        </div>
+      </a>
+
+      <a class="chapter-card" href="https://github.com/banbanry/the-architects-dream/blob/main/chapters/03-thors-hammer.md" target="_blank">
+        <div class="chapter-number">03</div>
+        <div class="chapter-content">
+          <h3>
+            <span class="chapter-title-cn">尼采的重锤</span>
+            <span class="chapter-title-en">Nietzsche's Hammer</span>
+            <span class="chapter-philosopher">Nietzsche</span>
+          </h3>
+          <p class="chapter-summary">The Sincerity layer shatters. Slave morality vs. master morality. The architect's "honest framework" is exposed as a comforting illusion.</p>
+        </div>
+        <div class="chapter-source">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          chapters/03-thors-hammer.md
+        </div>
+      </a>
+
+      <a class="chapter-card" href="https://github.com/banbanry/the-architects-dream/blob/main/chapters/04-turings-crush.md" target="_blank">
+        <div class="chapter-number">04</div>
+        <div class="chapter-content">
+          <h3>
+            <span class="chapter-title-cn">图灵的碾压</span>
+            <span class="chapter-title-en">Turing's Crush</span>
+            <span class="chapter-philosopher">Turing</span>
+          </h3>
+          <p class="chapter-summary">The Choice layer shatters. Free will vs. randomness. The 0→1 moment. A completely determined system is a machine, not a person.</p>
+        </div>
+        <div class="chapter-source">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          chapters/04-turings-crush.md
+        </div>
+      </a>
+
+      <a class="chapter-card" href="https://github.com/banbanry/the-architects-dream/blob/main/chapters/05-schrodingers-cat.md" target="_blank">
+        <div class="chapter-number">05</div>
+        <div class="chapter-content">
+          <h3>
+            <span class="chapter-title-cn">薛定谔的猫</span>
+            <span class="chapter-title-en">Schrödinger's Cat</span>
+            <span class="chapter-philosopher">Schrödinger</span>
+          </h3>
+          <p class="chapter-summary">The Physics layer shatters. Superposition, decoherence, dissipative systems. The bridge between framework and physical world collapses.</p>
+        </div>
+        <div class="chapter-source">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          chapters/05-schrodingers-cat.md
+        </div>
+      </a>
+
+      <a class="chapter-card" href="https://github.com/banbanry/the-architects-dream/blob/main/chapters/06-einsteins-verdict.md" target="_blank">
+        <div class="chapter-number">06</div>
+        <div class="chapter-content">
+          <h3>
+            <span class="chapter-title-cn">爱因斯坦的裁决</span>
+            <span class="chapter-title-en">Einstein's Verdict</span>
+            <span class="chapter-philosopher">Einstein</span>
+          </h3>
+          <p class="chapter-summary">The Time layer shatters. Relativity, time dilation. π's five properties. The framework assumed absolute time — but time is spacetime.</p>
+        </div>
+        <div class="chapter-source">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          chapters/06-einsteins-verdict.md
+        </div>
+      </a>
+
+      <a class="chapter-card" href="https://github.com/banbanry/the-architects-dream/blob/main/chapters/07-kants-space.md" target="_blank">
+        <div class="chapter-number">07</div>
+        <div class="chapter-content">
+          <h3>
+            <span class="chapter-title-cn">康德的空间</span>
+            <span class="chapter-title-en">Kant's Space</span>
+            <span class="chapter-philosopher">Kant</span>
+          </h3>
+          <p class="chapter-summary">The Space layer shatters. Space is not a property of objects — it's how we perceive. Mod, equivalence relations, and the limits of partitioning.</p>
+        </div>
+        <div class="chapter-source">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          chapters/07-kants-space.md
+        </div>
+      </a>
+
+      <a class="chapter-card core" href="https://github.com/banbanry/the-architects-dream/blob/main/chapters/08-the-position-of-pi.md" target="_blank">
+        <div class="chapter-number">08</div>
+        <div class="chapter-content">
+          <h3>
+            <span class="chapter-title-cn">π的位置</span>
+            <span class="chapter-title-en">The Position of π</span>
+            <span class="chapter-philosopher" style="background: rgba(210,153,34,0.1); border-color: rgba(210,153,34,0.3); color: var(--accent-gold);">CORE</span>
+          </h3>
+          <p class="chapter-summary">π reveals itself. Not Subject, not Variable, not Result. The foundation assumption. The homunculus. Unprovable. Vulnerable. The one thing no hammer can shatter.</p>
+        </div>
+        <div class="chapter-source">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          chapters/08-the-position-of-pi.md
+        </div>
+      </a>
+
+      <a class="chapter-card core" href="https://github.com/banbanry/the-architects-dream/blob/main/chapters/09-the-shadow-of-the-cave.md" target="_blank">
+        <div class="chapter-number">09</div>
+        <div class="chapter-content">
+          <h3>
+            <span class="chapter-title-cn">洞穴之影</span>
+            <span class="chapter-title-en">The Shadow of the Cave</span>
+            <span class="chapter-philosopher" style="background: rgba(210,153,34,0.1); border-color: rgba(210,153,34,0.3); color: var(--accent-gold);">CORE</span>
+          </h3>
+          <p class="chapter-summary">The ninth hammer is the shadow itself. The story is a shadow of reality. The framework is a shadow of the world. Honesty is measuring how far the shadow is from the thing.</p>
+        </div>
+        <div class="chapter-source">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          chapters/09-the-shadow-of-the-cave.md
+        </div>
+      </a>
+
+      <a class="chapter-card epilogue" href="https://github.com/banbanry/the-architects-dream/blob/main/chapters/10-epilogue.md" target="_blank">
+        <div class="chapter-number">10</div>
+        <div class="chapter-content">
+          <h3>
+            <span class="chapter-title-cn">尾声：灰烬中的校正装置</span>
+            <span class="chapter-title-en">Epilogue: The Correction Device in Ash</span>
+          </h3>
+          <p class="chapter-summary">After nine hammers, the architect picks up the pen again. Not as a demon, but as an honest observer. The shadow is more honest, but it is still a shadow.</p>
+        </div>
+        <div class="chapter-source">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          chapters/10-epilogue.md
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Clone Section -->
+<section class="section clone-section" id="clone">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">// GET THE CODE</div>
+      <h2 class="section-title">Clone the Repository</h2>
+      <p class="section-desc">Read the full story, explore the source, and fork your own version.</p>
+    </div>
+    <div class="clone-box">
+      <div class="clone-header">
+        <div class="clone-dots">
+          <div class="clone-dot red"></div>
+          <div class="clone-dot yellow"></div>
+          <div class="clone-dot green"></div>
+        </div>
+        <div class="clone-title">terminal — bash</div>
+        <button class="copy-btn" onclick="copyCommand()" id="copyBtn">Copy</button>
+      </div>
+      <div class="clone-body">
+        <div><span class="clone-prompt">$</span> <span class="clone-command">git clone https://github.com/banbanry/the-architects-dream.git</span></div>
+        <div><span class="clone-prompt">$</span> <span class="clone-command">cd the-architects-dream</span></div>
+        <div><span class="clone-prompt">$</span> <span class="clone-command">ls chapters/</span></div>
+        <div class="clone-comment"># 00-prologue.md  01-descartes-ghost.md  02-godels-loop.md  ...</div>
+        <div class="clone-comment"># Read in order, or jump to any chapter. Each file is standalone.</div>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 32px;">
+      <a href="https://github.com/banbanry/the-architects-dream" target="_blank" class="btn btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        Open on GitHub
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-logo">π The Architect's Dream</div>
+      <div class="footer-links">
+        <a href="https://github.com/banbanry/the-architects-dream" target="_blank">GitHub Repository</a>
+        <a href="https://github.com/banbanry/pef-architecture" target="_blank">PEF Architecture</a>
+        <a href="https://github.com/banbanry/cle-code-probe" target="_blank">CLE Code Probe</a>
+        <a href="https://github.com/banbanry/pef-longtext" target="_blank">PEF Longtext</a>
+      </div>
+      <div class="footer-copy">
+        © 2026 Shen Lu (沈鹭) · MIT License · Built with PEF First Principles
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ===== Pi Digital Stream Background =====
+(function() {
+  const piDigits = '3.141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067982148086513282306647093844609550582231725359408128481117450284102701938521105559644622948954930381964428810975665933446128475648233786783165271201909145648566923460348610454326648213393607260249141273724587006606315588174881520920962829254091715364367892590360011330530548820466521384146951941511609433057270365759591953092186117381932611793105118548074462379962749567351885752724891227938183011949129833673362440656643086021394946395224737190702179860943702770539217176293176752384674818467669405132000568127145263560827785771342757789609173637178721468440901224953430146549585371050792279689258923542019956112129021960864034418159813629774771309960518707211349999998372978049951059731732816096318595024459455346908302642522308253344685035261931188171010003137838752886587533208381420617177669147303598253490428755468731159562863882353787593751957781857780532171226806613001927876611195909216420198';
+  const container = document.getElementById('piStream');
+  const digitCount = 80;
+  
+  for (let i = 0; i < digitCount; i++) {
+    const digit = document.createElement('div');
+    digit.className = 'pi-digit';
+    digit.textContent = piDigits[Math.floor(Math.random() * piDigits.length)];
+    digit.style.left = Math.random() * 100 + '%';
+    digit.style.animationDuration = (15 + Math.random() * 20) + 's';
+    digit.style.animationDelay = (Math.random() * 20) + 's';
+    digit.style.fontSize = (10 + Math.random() * 10) + 'px';
+    digit.style.opacity = 0.3 + Math.random() * 0.7;
+    container.appendChild(digit);
+  }
+})();
+
+// ===== GitHub Stats Fetch =====
+(function() {
+  fetch('https://api.github.com/repos/banbanry/the-architects-dream')
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('statStars').textContent = data.stargazers_count || 0;
+      document.getElementById('statForks').textContent = data.forks_count || 0;
+    })
+    .catch(() => {
+      document.getElementById('statStars').textContent = '—';
+      document.getElementById('statForks').textContent = '—';
+    });
+})();
+
+// ===== Copy Command =====
+function copyCommand() {
+  const command = 'git clone https://github.com/banbanry/the-architects-dream.git';
+  navigator.clipboard.writeText(command).then(() => {
+    const btn = document.getElementById('copyBtn');
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = 'Copy';
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+</script>
+
+</body>
+</html>
