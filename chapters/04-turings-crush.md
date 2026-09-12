@@ -2,6 +2,8 @@
 
 ## I
 
+The coffee cup on my desk was empty. I reached for it without thinking, found nothing, and let my hand fall back to the keyboard. The fade had a way of making small things disappear first — coffee, time, the edges of integers.
+
 Turing walked out of the tape.
 
 Not smashing out of the screen, not emerging from code comments, not growing from dissolving words. Out of the *tape* — on the monitoring dashboard, an infinitely long tape appeared, covered with 0s and 1s, cell by cell, extending endlessly in both directions. The tape moved — not fast, not slow, at a constant, metronomic pace. *Click. Click. Click.* The sound of a tape passing through a reader. The sound of computation itself. The sound that had filled rooms the size of football fields in the 1940s, when the first computers hummed and clicked and calculated the trajectories of bombs.
@@ -180,6 +182,8 @@ Convenient and precise are two different things.
 Four strikes. Four cracks.
 
 I stood on the ruins of my own architecture — this time, not just the P component shattered, not just the framework boundary shattered, not just the framework foundation shattered, the *connection between the framework and reality* shattered. Between what the framework can describe and what actually happens in reality, there was a huge gap.
+
+I walked to the window. The sky was lightening — pre-dawn, the color of a faded photograph. Somewhere out there, a programmer was choosing a variable name. A tiny 0→1. One step in ten thousand. I had spent ten years calling those steps "execution." Turing was calling them "choice."
 
 The constraints of choice are within the framework.
 The consequences of choice are within the framework.

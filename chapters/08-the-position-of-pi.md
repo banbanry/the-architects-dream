@@ -2,6 +2,8 @@
 
 ## I
 
+The coffee cup on my desk had been empty for hours. I didn't remember the last time I'd filled it. After seven hammers, after the edge of death, small things stopped mattering. The pen I'd held for ten years was still in my hand, but my grip had loosened — not from weakness, from release.
+
 I had let go.
 
 That was the thing. After seven hammers, after the edge of death, after seeing the circle — the outline of a boundary — in the moment between existing and not existing, after remembering my whole life, after realizing I was never Laplace's Demon, after choosing to become an elementary school teacher, to sit in the corner of the world and build little blocks of understanding with little people —

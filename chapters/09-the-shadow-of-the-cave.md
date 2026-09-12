@@ -4,6 +4,8 @@
 
 ### I
 
+The coffee cup was empty. I set the pen down on the desk — for the first time in eight hammers, I set it down deliberately, not because my hand was tired, but because I knew this last hammer would be different. This one wouldn't come from outside. This one would come from the shadow itself.
+
 The shadow came out of a two-dimensional plane.
 
 Not out of a waterfall of numbers, not out of the unfolding of space, not out of the bending of spacetime, not out of a box, not walking out of a tape, not smashing out of the screen, not emerging from code comments. Out of **a two-dimensional plane** — on the monitoring dashboard, every character began to cast a shadow. Not a physical shadow, a logical shadow — every character cast a two-dimensional, thicknessless shadow, the characters in the shadow were exactly the same as the original characters, but the characters in the shadow were flat, two-dimensional, without depth. They had no thickness. No substance. No weight. They were — *only surface*. Like a reflection in a still pond. Like a silhouette against a sunset. Like a memory of something that once had depth, but now had only outline.

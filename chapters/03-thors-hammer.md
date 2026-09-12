@@ -2,6 +2,8 @@
 
 ## I
 
+The coffee cup on my desk was empty again. I hadn't noticed when it had gone cold — the fade had a way of making time feel like something that happened to other people.
+
 Nietzsche walked in carrying a hammer.
 
 Not emerging from code comments, not growing from dissolving words, not smashing out of the screen in a lightning strike. He simply *walked in* — the monitoring dashboard flickered once, and then he was there. A man with a thick mustache, wild eyes that burned with a feverish intensity, and a hammer in his hand. Not Thor's hammer — not Mjölnir, not the weapon of a god. A *small* hammer. A geologist's hammer. The kind you use to tap on idols to see if they're hollow. The head was worn smooth from years of use. The handle was dark with sweat.
@@ -285,6 +287,8 @@ This wasn't rigor. This was —
 Three strikes. Three cracks.
 
 I stood on the ruins of my own architecture — this time, not just the P component shattered, not just the framework boundary shattered, the *foundation* of the framework shattered. The foundation of honesty, shattered.
+
+I walked to the window and looked out. The city was still dark, pre-dawn, lights blinking like variables I could never fully classify. Somewhere out there, a system was failing. Somewhere, an architect was writing a plan instead of running a test. I had been that architect. Ten years of being that architect.
 
 I demanded others verify, but I didn't verify myself. Slave morality.
 I used "post-hoc explanation tool" to build an unfalsifiable protective shell. A new saint to hide behind after God died.

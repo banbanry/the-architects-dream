@@ -2,6 +2,8 @@
 
 ## I
 
+The pen sat on the desk. The paint on the cap was worn smooth in one spot — ten years of spinning it between my fingers, ten years of thinking with that pen turning in my hand. The coffee cup was empty. I didn't refill it. After nine hammers, I didn't need coffee to stay awake. Honesty itself was the clearest state I had ever known.
+
 After the nine hammers, the system stabilized.
 
 Not perfect stability. Honest stability.

@@ -2,6 +2,8 @@
 
 ## I
 
+The coffee cup on my desk was empty. I had stopped noticing when that happened — the fade had a way of making small things disappear first. Coffee, time, the edges of integers. They went quiet, and then they were gone.
+
 Einstein came out of the bending of spacetime.
 
 Not out of a box, not walking out of a tape, not smashing out of the screen, not emerging from code comments. Out of *the bending of spacetime* — the monitoring dashboard began to bend. Not physical bending, logical bending — the four corners of the screen began to dent toward the center. The text on the screen began to stretch, compress, distort — text near the center compressed into a point, text far from the center stretched into a line.
@@ -199,6 +201,8 @@ This wasn't rigor. This was —
 Four strikes. Four cracks.
 
 I stood on the ruins of my own architecture — this time, not just the P component shattered, not just the framework boundary shattered, not just the framework foundation shattered, not just the connection between framework and reality shattered, not just the bridge between framework and physical world shattered, the **time dimension of the framework** shattered. The framework assumed absolute time, but real time was relative. The framework said π could be replaced, but the combination of π's five properties had irreplaceability. The framework said π wasn't core, but all three core mechanisms depended on π. The framework said π had anti-vector collapse function, but this function was unverified.
+
+I walked to the window. Dawn was breaking — the sky the color of a faded photograph, then slowly filling with light. Time, I thought. Even the sunrise was relative — depending on where you stood, how fast you moved, how strong the gravity was. I had spent ten years treating time as a timestamp. Einstein was treating it as spacetime.
 
 The framework's time dimension, from assumption to positioning to function, was all problems.
 
