@@ -4,12 +4,57 @@
 
 This kit contains everything needed to publish **The Architect's Dream** on Royal Road, Scribble Hub, and Wattpad, plus launch exposure copy for Reddit, Hacker News, X (Twitter), and Tumblr.
 
-**Core Links:**
+**Core Links (always use direct links, never URL shorteners):**
 - Online Reading: https://banbanry.github.io/the-architects-dream/
 - GitHub Repository: https://github.com/banbanry/the-architects-dream
 - EPUB Download: https://github.com/banbanry/the-architects-dream/releases/download/v1.0.0/the-architects-dream.epub
 - PDF Download: https://github.com/banbanry/the-architects-dream/releases/download/v1.0.0/the-architects-dream.pdf
 - Cover Image: `social-preview.png` (1280×640, use as cover or social preview)
+
+---
+
+## 🔗 Link Best Practices (READ BEFORE PUBLISHING)
+
+### ❌ Never Use URL Shorteners
+- **Do NOT** use `link.wtturl.cn`, `bit.ly`, `tinyurl.com`, or any other URL shortener
+- Many platforms and users suspect short links are redirect ads, phishing, or malware
+- Short links hurt SEO, platform trust, and click-through rates
+- GitHub Pages and GitHub direct links are already short and trustworthy
+
+### ✅ Always Use Direct Links
+| Platform | Use This Link |
+|----------|----------------|
+| Online reading | `https://banbanry.github.io/the-architects-dream/` |
+| Source code | `https://github.com/banbanry/the-architects-dream` |
+| EPUB download | `https://github.com/banbanry/the-architects-dream/releases/download/v1.0.0/the-architects-dream.epub` |
+| PDF download | `https://github.com/banbanry/the-architects-dream/releases/download/v1.0.0/the-architects-dream.pdf` |
+| Specific chapter | `https://github.com/banbanry/the-architects-dream/blob/master/chapters/00-prologue.md` |
+
+### 📊 Track Sources with UTM Parameters
+If you want to track which platform drives the most traffic, append `utm_source` to the GitHub Pages link. This is **completely safe**, **transparent**, and **doesn't affect the user experience**.
+
+**Format:** `https://banbanry.github.io/the-architects-dream/?utm_source=<platform>`
+
+| Platform | UTM Link |
+|----------|----------|
+| Reddit r/scifi | `https://banbanry.github.io/the-architects-dream/?utm_source=reddit-scifi` |
+| Reddit r/writing | `https://banbanry.github.io/the-architects-dream/?utm_source=reddit-writing` |
+| Reddit r/philosophy | `https://banbanry.github.io/the-architects-dream/?utm_source=reddit-philosophy` |
+| Reddit r/programming | `https://banbanry.github.io/the-architects-dream/?utm_source=reddit-programming` |
+| Hacker News | `https://banbanry.github.io/the-architects-dream/?utm_source=hn` |
+| X (Twitter) | `https://banbanry.github.io/the-architects-dream/?utm_source=twitter` |
+| Tumblr | `https://banbanry.github.io/the-architects-dream/?utm_source=tumblr` |
+| Royal Road | `https://banbanry.github.io/the-architects-dream/?utm_source=royalroad` |
+| Scribble Hub | `https://banbanry.github.io/the-architects-dream/?utm_source=scribblehub` |
+| Wattpad | `https://banbanry.github.io/the-architects-dream/?utm_source=wattpad` |
+
+**How to view UTM data:**
+- GitHub Pages doesn't have built-in analytics, but you can:
+  1. Add a free analytics script (Plausible, Umami, or Google Analytics) to `docs/index.html`
+  2. Use GitHub's built-in traffic insights (less granular, but shows referrers)
+  3. Check referrer data in your GitHub repository Insights → Traffic
+
+**Important:** UTM parameters only work on the GitHub Pages link. For GitHub repository and Release download links, the platform's own referrer data will show the source.
 
 ---
 
