@@ -103,3 +103,10 @@ This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licens
 *The Architect's Dream — Nine Hammers of Self-Trial*
 
 *An honest shadow does not fade.*
+
+## 反馈与提问 / Feedback & Questions
+
+- 提交 Issue：https://github.com/banbanry/the-architects-dream/issues
+- 参与讨论：https://github.com/banbanry/the-architects-dream/discussions
+
+欢迎留下阅读反馈、内容提问、写作建议和文本勘误。
