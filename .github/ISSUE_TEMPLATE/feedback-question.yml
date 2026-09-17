@@ -1,0 +1,38 @@
+name: 反馈与提问
+description: 提交阅读反馈、内容提问、建议或勘误
+title: "[反馈] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢阅读《The Architect's Dream》。
+        请在这里留下你的阅读反馈、内容提问、写作建议或文本勘误。
+  - type: dropdown
+    id: type
+    attributes:
+      label: 类型
+      options:
+        - 阅读反馈
+        - 内容提问
+        - 勘误/拼写
+        - 功能建议
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: 反馈内容
+      description: 请描述你遇到的问题、建议或想提问的内容。
+      placeholder: 例如：第3章某段表达不通顺 / 希望增加人物关系图 / 对世界观设定有疑问
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: 相关位置（可选）
+      description: 章节、页码、段落或链接
+      placeholder: 例如 Chapter 3, page 12
+    validations:
+      required: false
