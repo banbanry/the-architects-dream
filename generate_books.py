@@ -42,6 +42,19 @@ for fname, title in chapters:
 
 print(f"\nTotal chapters: {len(chapter_contents)}")
 
+feedback_title = "Feedback & Questions"
+feedback_content = """## Feedback & Questions
+
+Thank you for reading *The Architect's Dream*.
+
+If you have feedback, questions, suggestions, or found a typo, please open an issue or join the discussion:
+
+- Issues / Feedback: https://github.com/banbanry/the-architects-dream/issues
+- Discussions: https://github.com/banbanry/the-architects-dream/discussions
+- Repository: https://github.com/banbanry/the-architects-dream
+"""
+chapter_contents.append((feedback_title, feedback_content))
+
 # ===== Generate EPUB =====
 print("\n=== Generating EPUB ===")
 epub_path = os.path.join(output_dir, 'the-architects-dream.epub')
