@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 讨论区 Discussions
+    url: https://github.com/banbanry/the-architects-dream/discussions
+    about: 公开讨论、读后感、设定交流和一般问题
